@@ -1,0 +1,87 @@
+CREATE TABLE `task` (
+  `id` bigint NOT NULL AUTO_INCREMENT,
+  `status` varchar(255) DEFAULT NULL,
+  `approver` varchar(255) DEFAULT NULL,
+  `duedate` date DEFAULT NULL,
+  `task` varchar(255) DEFAULT NULL,
+  `task_id` bigint NOT NULL,
+  `user_id` bigint DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+
+
+INSERT INTO `onboarding`.`task`
+(`id`,
+`status`,
+`approver`,
+`duedate`,
+`task`,
+`task_id`,
+`user_id`)
+VALUES
+(1,
+"InProgress",
+"null",
+"2023-05-31",
+"NEW_HIRE",
+1,
+1);
+
+
+
+CREATE TABLE `user` (
+  `user_id` bigint NOT NULL,
+  `email` varchar(255) DEFAULT NULL,
+  `username` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`user_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+
+INSERT INTO `onboarding`.`user`
+(`user_id`,
+`email`,
+`username`)
+VALUES
+(1,
+<"user1@hcl.com",
+"user1");
+
+
+
+CREATE TABLE `modules` (
+  `module_id` bigint NOT NULL,
+  `exam` varchar(255) DEFAULT NULL,
+  `module_name` varchar(255) DEFAULT NULL,
+  `group_id` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`module_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+
+INSERT INTO `onboarding`.`modules`
+(`module_id`,
+`exam`,
+`module_name`,
+`group_id`)
+VALUES
+(1,
+0,
+"NEW_HIRE",
+1);
+
+/*exam value is boolean 0 or 1*/
+
+CREATE TABLE `category` (
+  `user_id` bigint NOT NULL,
+  `category` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`user_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+
+
+INSERT INTO `onboarding`.`category`
+(`user_id`,
+`category`)
+VALUES
+(1,
+group1);

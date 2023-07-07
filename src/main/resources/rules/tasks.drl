@@ -1,0 +1,55 @@
+package com.foobat;
+import com.hcl.elch.freshersuperchargers.trainingworkflow.entity.Task;
+import java.time.LocalDate;
+import java.util.Map;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
+import java.util.*;
+import com.hcl.elch.freshersuperchargers.trainingworkflow.entity.Category;
+global com.hcl.elch.freshersuperchargers.trainingworkflow.entity.Task t1;
+
+global com.hcl.elch.freshersuperchargers.trainingworkflow.entity.Modules m;
+import com.hcl.elch.freshersuperchargers.trainingworkflow.entity.Modules;
+global String A;
+global String last;
+global String compare;
+dialect "mvel"
+
+
+
+rule "Checking catagory and tasks values are not null"
+   when
+     $task : Task(task!="NULL") && $Category : Category(category!="NULL")
+   then
+     System.out.println("Task and Category Values are Not Null!!!!!");  
+end
+
+
+
+rule "Checking the next task value is not null and updating to the next task"
+     when
+       $Category : Category();
+       $task :Task();
+     then 
+        t1.setTask(A);
+        System.out.println("Value of a :-"+A+" task is  :-"+$task.getDuedate()+"  Duration:- "+m.getDuration());
+          
+end
+
+
+rule "updating values"
+     when
+       $Category:Category();
+       $task :Task();
+     then
+     		System.out.println($task.getApprover());
+     		t1.setTaskId($task.getTaskId()+1);
+     		t1.setUserId($task.getUserId());
+     		$task.setStatus("Completed");
+     		$task.setApprover($task.getApprover());
+     		t1.setStatus("InProgress");  
+     		LocalDate datePlus1 = $task.getDuedate().plusDays(m.getDuration()); 
+     		t1.setDuedate(datePlus1);
+end

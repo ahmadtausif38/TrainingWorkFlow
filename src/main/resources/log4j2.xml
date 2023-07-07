@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="info" name="PropertiesConfig">
+<Appenders>
+
+	<Console name="ConsoleAppender" target="SYSTEM_OUT">
+		<PatternLayout pattern="[%d] - [%c] [%M] -> (%p) [%m] %n"/>
+	</Console>
+	
+	<RollingFile name="RollingFile" fileName="logs/application.log"
+				filePattern="logs/application-%d{yyyy-MM-dd}.%i.log">
+		<PatternLayout pattern="[%d] - [%c] [%M] -> (%p) [%m] %n"/>
+		<Policies>
+			<TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+			<SizeBasedTriggeringPolicy size="1MB"/>
+		</Policies>
+	</RollingFile>
+</Appenders>
+	<Loggers>
+		<Root level="info">
+			<AppenderRef ref="ConsoleAppender"/>	
+			<AppenderRef ref="RollingFile"/>
+		</Root>
+	</Loggers>
+</Configuration>

@@ -1,0 +1,76 @@
+{
+  "components": [
+    {
+      "label": "UserEmail",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0b0fbzc",
+        "columns": null
+      },
+      "id": "Field_0di6g4q",
+      "key": "Email",
+      "disabled": true,
+      "properties": {
+        "Email": "value"
+      }
+    },
+    {
+      "label": "Task Name",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0b0fbzc",
+        "columns": null
+      },
+      "id": "Field_11jmjwh",
+      "key": "task",
+      "disabled": true,
+      "properties": {
+        "task": "value"
+      }
+    },
+    {
+      "label": "Approved By",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0gxxge5",
+        "columns": null
+      },
+      "id": "Field_0q62y0f",
+      "key": "approver",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "Yes",
+          "value": "Yes"
+        },
+        {
+          "label": "No",
+          "value": "No"
+        }
+      ],
+      "label": "Approval",
+      "type": "select",
+      "layout": {
+        "row": "Row_0pviuq4",
+        "columns": null
+      },
+      "id": "Field_0ocyic4",
+      "key": "Decision",
+      "defaultValue": "value",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Form_1opo1q1",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.11.0"
+  },
+  "schemaVersion": 8
+}
