@@ -16,7 +16,6 @@ import com.hcl.elch.freshersuperchargers.trainingworkflow.exceptions.CamundaExce
 import com.hcl.elch.freshersuperchargers.trainingworkflow.repo.CategoryRepo;
 import com.hcl.elch.freshersuperchargers.trainingworkflow.repo.TaskRepo;
 import com.hcl.elch.freshersuperchargers.trainingworkflow.repo.UserRepo;
-import com.hcl.elch.freshersuperchargers.trainingworkflow.service.EmailSenderService;
 import com.hcl.elch.freshersuperchargers.trainingworkflow.service.TaskServiceImpl;
 
 
@@ -36,11 +35,6 @@ public class ServiceFinalTask implements JavaDelegate{
 	
 	@Autowired 
 	private UserRepo ur;
-	
-	public Task newTask;
-	
-	@Autowired
-	private EmailSenderService emailSenderService;
 
 	@Override
 	public void execute(DelegateExecution execution) throws CamundaException{
@@ -50,10 +44,6 @@ public class ServiceFinalTask implements JavaDelegate{
 		String date= (String) execution.getVariable("duedate");
 		String userid= (String) execution.getVariable("userId");
 		String taskid= (String) execution.getVariable("TaskId");
-		
-		String username= (String) execution.getVariable("username");
-		String email=(String) execution.getVariable("Email");
-		
 		DateTimeFormatter df = DateTimeFormatter.ofPattern("yyyy-MM-dd");
 		LocalDate  d1 = LocalDate.parse(date, df);
 		//System.out.println("Approver By"+execution.getVariable("approver")); 
@@ -66,19 +56,9 @@ public class ServiceFinalTask implements JavaDelegate{
 		task.setApprover((String) execution.getVariable("approver"));
 		System.out.println(d1);
 		System.out.println(task.getTask());
-		nextTask(task);
+		String PA=(String) execution.getVariable("ProjectAssignation");
 		
-		System.out.println("Current task obj from ServiceFinalTask :- "+task.toString());
-		System.out.println("Next task obj from ServiceFinalTask :- "+newTask.toString());
-		
-		//boolean hasNext=true;
-		if(newTask.getTaskId()==task.getTaskId()) {
-			//hasNext=false;
-			String s=emailSenderService.mailSendingForTaskCompletion(username, email);
-		}else {
-			String s=emailSenderService.mailSendingForNextTask(username, email, newTask.getTask(), newTask.getDuedate());
-		}
-		
+		nextTask(task,PA);
 	  }
 	  catch(Exception e)
 	 {
@@ -89,8 +69,8 @@ public class ServiceFinalTask implements JavaDelegate{
 	 
 	}
 	
-
-    public void nextTask(Task task) {
+	
+    public void nextTask(Task task,String ProjectAssignation) {
     try
     {
     	System.out.println(task.getUserId());
@@ -99,16 +79,13 @@ public class ServiceFinalTask implements JavaDelegate{
     	Category c=cr.findById(u.getCategory().getUserId()).get();
     	System.out.println(c.getCategory()+" "+c.getUserId());
         //Task st=ts.getStatus(task,c);
-    	Task st=ts.getStatus(task,c);
-    	//nextTask
-    	newTask=st;
-    	
+    	Task st=ts.getStatus(task,c,ProjectAssignation);
         ts.setComplete(task);
         System.out.println(st.getTask());
         ts.save(st);
     }
     catch(Exception e)
     {
-    	System.out.println("Unable to move to next Task "+e);
+    	System.out.println("Unable to move to next Task"+e);
     }
 }}

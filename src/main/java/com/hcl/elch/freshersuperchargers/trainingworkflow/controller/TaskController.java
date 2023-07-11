@@ -149,9 +149,8 @@ public class TaskController implements JavaDelegate {
 			User s=camundaTask(glob);
 			execution.setVariable("Email",s.getEmail());
 			execution.setVariable("username",s.getName());
-			
-			//setting next task value
-			//execution.setVariable("nextTask",ts.getNextTask());
+			execution.setVariable("ProjectAssignation", s.getProjectAssignation());
+			System.out.println(s.getProjectAssignation());
 			
 			Modules m=category(glob);
 			execution.setVariable("mainid", glob);
@@ -168,8 +167,6 @@ public class TaskController implements JavaDelegate {
 			String date = localDate.format(formatter);
 			execution.setVariable("duedate", date);
 			System.out.println(glob.getStatus());
-			
-			System.out.println("Current Task :- "+glob.getTask()+" next Task :- "+ts.getNextTask()+"Username :- "+s.getName());
 		}
 		catch(Exception e) 
 		{

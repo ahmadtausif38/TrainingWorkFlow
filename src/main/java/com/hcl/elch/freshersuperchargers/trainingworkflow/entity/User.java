@@ -26,6 +26,8 @@ public class User {
 	private String alternateContactNo;
 
 	private String address;
+	
+	private String ProjectAssignation;
 
 	/*@OneToOne
 	private Gender gender;
@@ -36,6 +38,14 @@ public class User {
 	@OneToOne
 	private Region region;*/
 	
+
+	public String getProjectAssignation() {
+		return ProjectAssignation;
+	}
+
+	public void setProjectAssignation(String projectAssignation) {
+		ProjectAssignation = projectAssignation;
+	}
 
 	@OneToOne
 	private Category category;
