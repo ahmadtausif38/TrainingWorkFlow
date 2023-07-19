@@ -1,6 +1,7 @@
 package com.hcl.elch.freshersuperchargers.trainingworkflow.controller;
 
 import java.time.LocalDate;
+
 import java.time.format.DateTimeFormatter;
 
 import org.camunda.bpm.engine.delegate.BpmnError;
@@ -16,6 +17,7 @@ import com.hcl.elch.freshersuperchargers.trainingworkflow.exceptions.CamundaExce
 import com.hcl.elch.freshersuperchargers.trainingworkflow.repo.CategoryRepo;
 import com.hcl.elch.freshersuperchargers.trainingworkflow.repo.TaskRepo;
 import com.hcl.elch.freshersuperchargers.trainingworkflow.repo.UserRepo;
+import com.hcl.elch.freshersuperchargers.trainingworkflow.service.EmailSenderService;
 import com.hcl.elch.freshersuperchargers.trainingworkflow.service.TaskServiceImpl;
 
 
@@ -35,7 +37,12 @@ public class ServiceFinalTask implements JavaDelegate{
 	
 	@Autowired 
 	private UserRepo ur;
-
+ 
+	public Task newTask;
+	
+	@Autowired
+	private EmailSenderService emailSenderService;
+	
 	@Override
 	public void execute(DelegateExecution execution) throws CamundaException{
 	 try {
@@ -47,6 +54,9 @@ public class ServiceFinalTask implements JavaDelegate{
 		DateTimeFormatter df = DateTimeFormatter.ofPattern("yyyy-MM-dd");
 		LocalDate  d1 = LocalDate.parse(date, df);
 		//System.out.println("Approver By"+execution.getVariable("approver")); 
+		String username= (String) execution.getVariable("username");
+		String email=(String) execution.getVariable("Email");
+		
 		task.setTask((String) execution.getVariable("task"));
 		task.setStatus((String) execution.getVariable("status"));
 		task.setDuedate(d1);
@@ -59,6 +69,17 @@ public class ServiceFinalTask implements JavaDelegate{
 		String PA=(String) execution.getVariable("ProjectAssignation");
 		
 		nextTask(task,PA);
+		
+		System.out.println("Current task obj from ServiceFinalTask :- "+task.toString());
+		System.out.println("Next task obj from ServiceFinalTask :- "+newTask.toString());
+		
+		//boolean hasNext=true;
+		if(newTask.getTaskId()==task.getTaskId()) {
+			//hasNext=false;
+			String s=emailSenderService.mailSendingForTaskCompletion(username, email);
+		}else {
+			String s=emailSenderService.mailSendingForNextTask(username, email, newTask.getTask(), newTask.getDuedate());
+		}
 	  }
 	  catch(Exception e)
 	 {
@@ -80,6 +101,7 @@ public class ServiceFinalTask implements JavaDelegate{
     	System.out.println(c.getCategory()+" "+c.getUserId());
         //Task st=ts.getStatus(task,c);
     	Task st=ts.getStatus(task,c,ProjectAssignation);
+    	newTask=st;
         ts.setComplete(task);
         System.out.println(st.getTask());
         ts.save(st);

@@ -36,7 +36,7 @@ import com.hcl.elch.freshersuperchargers.trainingworkflow.entity.User;
 import com.hcl.elch.freshersuperchargers.trainingworkflow.exceptions.CamundaException;
 import com.hcl.elch.freshersuperchargers.trainingworkflow.exceptions.UserTaskException;
 import com.hcl.elch.freshersuperchargers.trainingworkflow.repo.ModuleRepo;
-import com.hcl.elch.freshersuperchargers.trainingworkflow.repo.SchedulerRepository;
+//import com.hcl.elch.freshersuperchargers.trainingworkflow.repo.SchedulerRepository;
 import com.hcl.elch.freshersuperchargers.trainingworkflow.repo.TaskRepo;
 import com.hcl.elch.freshersuperchargers.trainingworkflow.repo.UserRepo;
 import com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerService;
@@ -63,8 +63,8 @@ public class TaskController implements JavaDelegate {
 	@Autowired 
 	private ModuleRepo mr;
 	
-	@Autowired
-	private SchedulerRepository repo;
+	//@Autowired
+	//private SchedulerRepository repo;
 	
 	@Autowired 
 	private TaskRepo tr;

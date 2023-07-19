@@ -1,4 +1,4 @@
-package com.hcl.elch.freshersuperchargers.trainingworkflow.repo;
+/*package com.hcl.elch.freshersuperchargers.trainingworkflow.repo;
 
 import java.util.List;
 
@@ -14,4 +14,4 @@ public interface SchedulerRepository extends JpaRepository<Task, Long> {
 	public List<Task> findByStatus(String status);
 	
 
-}
+}*/

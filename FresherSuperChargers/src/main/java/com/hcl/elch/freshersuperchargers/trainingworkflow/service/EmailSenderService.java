@@ -2,6 +2,7 @@ package com.hcl.elch.freshersuperchargers.trainingworkflow.service;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
+import java.time.LocalDate;
 import java.util.logging.Logger;
 
 import javax.mail.MessagingException;
@@ -30,8 +31,8 @@ public class EmailSenderService {
         return new String(fileBytes, StandardCharsets.UTF_8);
     }
 	
-	//this template will send email without link -> failure and POC
-	private String loadFailAndPocEmailTemplate() throws IOException {
+	//this template will send email without link -> failure ,completion and POC
+	private String loadFail_CompleteAndPocEmailTemplate() throws IOException {
         ClassPathResource resource = new ClassPathResource("templates/email-template-fail.html");
         byte[] fileBytes = FileCopyUtils.copyToByteArray(resource.getInputStream());
         return new String(fileBytes, StandardCharsets.UTF_8);
@@ -73,11 +74,77 @@ public class EmailSenderService {
 	}
 	
 	
+	public String mailSendingForNextTask(String username, String Email, String nextTask, LocalDate duedate) throws MessagingException {
+		LOGGER.info("Inside the mailSendingForNextTask() method now........");
+		
+		try {
+			String htmlTemplate = loadFail_CompleteAndPocEmailTemplate();
+			String body="<b>"+nextTask+"</b> Training has been started and it is due for completion of <b>"+duedate+"</b>";
+			String msg="Please complete it before due date";
+			String n="SuperCharge Team";
+			String emailContent = htmlTemplate
+                 .replace("{username}", username)
+                // .replace("{url}", "https://practice.geeksforgeeks.org/problems/search-an-element-in-an-array-1587115621/1?page=1&difficulty[]=-1&category[]=Arrays&sortBy=submissions")
+		 		 .replace("{body}",body)
+		 		 .replace("{message}",msg)
+		 		 .replace("{name}", n);
+		 
+		 
+		   MimeMessage message = mailSender.createMimeMessage();
+	       MimeMessageHelper helper = new MimeMessageHelper(message, true);
+	       helper.setSubject("Next task assigned");
+	       helper.setTo(Email);
+	       helper.setText(emailContent, true);
+				
+		mailSender.send(message);
+		
+		System.out.println("Next task mail has sent successfully..");
+		
+		
+		}catch(Exception e) {
+			System.out.println("Exception encountered while sending next task mail..");
+		}
+		return "Message sent successfully for next task to :- "+username;
+	}
+	
+	public String mailSendingForTaskCompletion(String username, String Email) throws MessagingException {
+		LOGGER.info("Inside the mailSendingForNextTask() method now........");
+		
+		try {
+			String htmlTemplate = loadFail_CompleteAndPocEmailTemplate();
+			String body="<b>Congratulation!,</b> you have successfully completed the training.";
+			String msg="wait for next update";
+			String n="SuperCharge Team";
+			String emailContent = htmlTemplate
+                 .replace("{username}", username)
+                // .replace("{url}", "https://practice.geeksforgeeks.org/problems/search-an-element-in-an-array-1587115621/1?page=1&difficulty[]=-1&category[]=Arrays&sortBy=submissions")
+		 		 .replace("{body}",body)
+		 		 .replace("{message}",msg)
+		 		 .replace("{name}", n);
+		 
+		 
+		   MimeMessage message = mailSender.createMimeMessage();
+	       MimeMessageHelper helper = new MimeMessageHelper(message, true);
+	       helper.setSubject("Training completion");
+	       helper.setTo(Email);
+	       helper.setText(emailContent, true);
+				
+		mailSender.send(message);
+		
+		System.out.println("Task completion mail has sent successfully..");
+		
+		
+		}catch(Exception e) {
+			System.out.println("Exception encountered while sending task completion mail..");
+		}
+		return "Message sent successfully for task completion to :- "+username;
+	}
+	
 	public String mailSendingFailureTask(String username, String Email, String task) {
 		LOGGER.info("Inside the mailSendingFailureTask() method now........");
 
 		try {
-			String htmlTemplate = loadFailAndPocEmailTemplate();
+			String htmlTemplate = loadFail_CompleteAndPocEmailTemplate();
 		
 			String body="You are unable to clear the <b>"+task +"</b> assesment" ;
 			String msg="Please re-attempt the assesment within 2 days.";
@@ -111,7 +178,7 @@ public class EmailSenderService {
 		LOGGER.info("Inside the mailSendingForPoc() method now........");
 		
 		try {
-			String htmlTemplate = loadFailAndPocEmailTemplate();
+			String htmlTemplate = loadFail_CompleteAndPocEmailTemplate();
 		
 			String body="Your POC for task "+Task+" is started.";
 			String msg="Please complete it as soon as possible.";
@@ -146,7 +213,7 @@ public class EmailSenderService {
 		LOGGER.info("Inside the mailSendingFailurePoc() method now........");
 
 		try {
-			String htmlTemplate = loadFailAndPocEmailTemplate();
+			String htmlTemplate = loadFail_CompleteAndPocEmailTemplate();
 		
 			String body="You are unable to complete the <b>"+task +"</b> POC." ;
 			String msg="Please complete the POC as soon as possible.";
