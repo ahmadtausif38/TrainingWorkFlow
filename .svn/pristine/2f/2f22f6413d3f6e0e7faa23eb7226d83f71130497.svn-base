@@ -1,0 +1,1298 @@
+[2023-06-27 16:00:14,630] - [org.hibernate.validator.internal.util.Version] [<clinit>] -> (INFO) [HV000001: Hibernate Validator 6.2.5.Final] 
+[2023-06-27 16:00:14,755] - [com.hcl.elch.freshersuperchargers.trainingworkflow.TrainingWorkflowApplication] [logStarting] -> (INFO) [Starting TrainingWorkflowApplication using Java 17.0.6 on asusvivobook with PID 22628 (D:\Tausif\Downloads\FreshSuperChargers-Aswini-Avula\FreshSuperChargers-Aswini-Avula\target\classes started by Tausif in D:\Tausif\Downloads\FreshSuperChargers-Aswini-Avula\FreshSuperChargers-Aswini-Avula)] 
+[2023-06-27 16:00:14,781] - [com.hcl.elch.freshersuperchargers.trainingworkflow.TrainingWorkflowApplication] [logStartupProfileInfo] -> (INFO) [No active profile set, falling back to 1 default profile: "default"] 
+[2023-06-27 16:00:15,032] - [org.springframework.boot.devtools.restart.ChangeableUrls] [logTo] -> (INFO) [The Class-Path manifest attribute in C:\Users\Tausif\.m2\repository\org\glassfish\hk2\hk2\2.6.1\hk2-2.6.1.jar referenced one or more files that do not exist: file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-utils.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/jakarta.annotation-api.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/jakarta.inject.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-api.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/aopalliance-repackaged.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-core.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-locator.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/javassist.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-runlevel.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/class-model.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-analysis.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-commons.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-tree.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-util.jar] 
+[2023-06-27 16:00:15,034] - [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [logTo] -> (INFO) [Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable] 
+[2023-06-27 16:00:15,035] - [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [logTo] -> (INFO) [For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'] 
+[2023-06-27 16:00:18,838] - [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [registerRepositoriesIn] -> (INFO) [Bootstrapping Spring Data JPA repositories in DEFAULT mode.] 
+[2023-06-27 16:00:19,042] - [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [registerRepositoriesIn] -> (INFO) [Finished Spring Data repository scanning in 178 ms. Found 7 JPA repository interfaces.] 
+[2023-06-27 16:00:21,439] - [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [initialize] -> (INFO) [Tomcat initialized with port(s): 9002 (http)] 
+[2023-06-27 16:00:21,778] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Initializing ProtocolHandler ["http-nio-9002"]] 
+[2023-06-27 16:00:21,780] - [org.apache.catalina.core.StandardService] [log] -> (INFO) [Starting service [Tomcat]] 
+[2023-06-27 16:00:21,781] - [org.apache.catalina.core.StandardEngine] [log] -> (INFO) [Starting Servlet engine: [Apache Tomcat/9.0.65]] 
+[2023-06-27 16:00:22,111] - [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [log] -> (INFO) [Initializing Spring embedded WebApplicationContext] 
+[2023-06-27 16:00:22,112] - [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [prepareWebApplicationContext] -> (INFO) [Root WebApplicationContext: initialization completed in 7075 ms] 
+[2023-06-27 16:00:22,178] - [org.camunda.bpm.spring.boot.starter.rest.CamundaJerseyResourceConfig] [registerCamundaRestResources] -> (INFO) [Configuring camunda rest api.] 
+[2023-06-27 16:00:22,229] - [org.camunda.bpm.spring.boot.starter.rest.CamundaJerseyResourceConfig] [registerCamundaRestResources] -> (INFO) [Finished configuring camunda rest api.] 
+[2023-06-27 16:00:23,149] - [org.hibernate.jpa.internal.util.LogHelper] [logPersistenceUnitInformation] -> (INFO) [HHH000204: Processing PersistenceUnitInfo [name: default]] 
+[2023-06-27 16:00:23,340] - [org.hibernate.Version] [logVersion] -> (INFO) [HHH000412: Hibernate ORM core version 5.6.11.Final] 
+[2023-06-27 16:00:23,827] - [org.hibernate.annotations.common.Version] [<clinit>] -> (INFO) [HCANN000001: Hibernate Commons Annotations {5.1.2.Final}] 
+[2023-06-27 16:00:24,125] - [com.zaxxer.hikari.HikariDataSource] [getConnection] -> (INFO) [HikariPool-1 - Starting...] 
+[2023-06-27 16:00:25,001] - [com.zaxxer.hikari.HikariDataSource] [getConnection] -> (INFO) [HikariPool-1 - Start completed.] 
+[2023-06-27 16:00:25,058] - [org.hibernate.dialect.Dialect] [<init>] -> (INFO) [HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect] 
+[2023-06-27 16:00:27,262] - [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [initiateService] -> (INFO) [HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]] 
+[2023-06-27 16:00:27,281] - [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [buildNativeEntityManagerFactory] -> (INFO) [Initialized JPA EntityManagerFactory for persistence unit 'default'] 
+[2023-06-27 16:00:27,430] - [org.camunda.bpm.spring.boot] [logInfo] -> (INFO) [STARTER-SB040 Setting up jobExecutor with corePoolSize=3, maxPoolSize:10] 
+[2023-06-27 16:00:27,617] - [org.camunda.bpm.engine.cfg] [logInfo] -> (INFO) [ENGINE-12003 Plugin 'CompositeProcessEnginePlugin[genericPropertiesConfiguration, camundaProcessEngineConfiguration, camundaDatasourceConfiguration, camundaJpaConfiguration, camundaJobConfiguration, camundaHistoryConfiguration, camundaMetricsConfiguration, camundaAuthorizationConfiguration, CreateAdminUserConfiguration[adminUser=AdminUserProperty[id=Test, firstName=Test, lastName=Test, email=Test@localhost, password=******]], failedJobConfiguration, disableDeploymentResourcePattern, eventPublisherPlugin, ApplicationContextClassloaderSwitchPlugin, SpringBootSpinProcessEnginePlugin]' activated on process engine 'default'] 
+[2023-06-27 16:00:27,626] - [org.camunda.bpm.spring.boot] [logInfo] -> (INFO) [STARTER-SB020 ProcessApplication enabled: autoDeployment via springConfiguration#deploymentResourcePattern is disabled] 
+[2023-06-27 16:00:27,628] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-001: Initialized Camunda Spring Boot Eventing Engine Plugin.] 
+[2023-06-27 16:00:27,629] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-003: Task events will be published as Spring Events.] 
+[2023-06-27 16:00:27,629] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-005: Execution events will be published as Spring Events.] 
+[2023-06-27 16:00:27,632] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-007: History events will be published as Spring events.] 
+[2023-06-27 16:00:27,640] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormatProvider[name = application/json]] 
+[2023-06-27 16:00:28,028] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormatProvider[name = application/xml]] 
+[2023-06-27 16:00:28,191] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormat[name = application/xml]] 
+[2023-06-27 16:00:28,191] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormat[name = application/json]] 
+[2023-06-27 16:00:28,643] - [org.camunda.bpm.dmn.feel.scala] [logInfo] -> (INFO) [FEEL/SCALA-01001 Spin value mapper detected] 
+[2023-06-27 16:00:28,775] - [org.camunda.feel.FeelEngine] [<init>] -> (INFO) [Engine created. [value-mapper: CompositeValueMapper(List(org.camunda.feel.impl.JavaValueMapper@2082fd89, org.camunda.spin.plugin.impl.feel.integration.SpinValueMapper@23805ccd)), function-provider: org.camunda.bpm.dmn.feel.impl.scala.function.CustomFunctionTransformer@2ce30e9, clock: SystemClock, configuration: Configuration(false)]] 
+[2023-06-27 16:00:36,174] - [org.camunda.bpm.connect] [logInfo] -> (INFO) [CNCT-01004 Discovered provider for connector id 'http-connector' and class 'org.camunda.connect.httpclient.impl.HttpConnectorImpl': 'org.camunda.connect.httpclient.impl.HttpConnectorProviderImpl'] 
+[2023-06-27 16:00:36,180] - [org.camunda.bpm.connect] [logInfo] -> (INFO) [CNCT-01004 Discovered provider for connector id 'soap-http-connector' and class 'org.camunda.connect.httpclient.soap.impl.SoapHttpConnectorImpl': 'org.camunda.connect.httpclient.soap.impl.SoapHttpConnectorProviderImpl'] 
+[2023-06-27 16:00:36,567] - [org.camunda.bpm.engine] [logInfo] -> (INFO) [ENGINE-00001 Process Engine default created.] 
+[2023-06-27 16:00:36,639] - [org.camunda.bpm.spring.boot] [logInfo] -> (INFO) [STARTER-SB011 Skip creating initial Admin User, user does exist: UserEntity[id=Test, revision=3, firstName=Test, lastName=Test, email=Test@localhost, password={SHA-512}sfb4lSg/21sQdiTxHeQ0gnxvuW2IIbT/b3w+ZFXi6d/4M3gBqHNLQZONFXd375ibtqquTYMhp29mDTJd+EecJw==, salt=B7vNYSEtAGJGbzTO9N4jDw==, lockExpirationTime=null, attempts=0]] 
+[2023-06-27 16:00:37,234] - [org.drools.compiler.kie.builder.impl.KieBuilderImpl] [packageNameForFile] -> (WARN) [File 'rules/tasks.drl' is in folder 'rules' but declares package 'com.foobat'. It is advised to have a correspondance between package and folder names.] 
+[2023-06-27 16:00:39,080] - [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [openEntityManagerInViewInterceptor] -> (WARN) [spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning] 
+[2023-06-27 16:00:39,678] - [org.camunda.bpm.spring.boot.starter.webapp.filter.LazyInitRegistration] [lazyInit] -> (INFO) [lazy initialized org.camunda.bpm.spring.boot.starter.webapp.filter.LazySecurityFilter@2647d472] 
+[2023-06-27 16:00:39,680] - [org.camunda.bpm.spring.boot.starter.webapp.filter.LazyInitRegistration] [lazyInit] -> (INFO) [lazy initialized org.camunda.bpm.spring.boot.starter.webapp.filter.LazyProcessEnginesFilter@6d2454ad] 
+[2023-06-27 16:00:39,924] - [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [startServer] -> (INFO) [LiveReload server is running on port 35729] 
+[2023-06-27 16:00:39,932] - [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] [refresh] -> (WARN) [Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanInitializationException: Failed to process @EventListener annotation on bean with name 'javaEmailSending'; nested exception is java.lang.IllegalStateException: Maximum one parameter is allowed for event listener method: public void com.hcl.elch.freshersuperchargers.trainingworkflow.controller.JavaEmailSending.sendMail(java.lang.String,java.lang.String,java.lang.String)] 
+[2023-06-27 16:00:40,049] - [org.camunda.bpm.engine] [logInfo] -> (INFO) [ENGINE-00007 Process Engine default closed] 
+[2023-06-27 16:00:40,050] - [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [destroy] -> (INFO) [Closing JPA EntityManagerFactory for persistence unit 'default'] 
+[2023-06-27 16:00:40,057] - [com.zaxxer.hikari.HikariDataSource] [close] -> (INFO) [HikariPool-1 - Shutdown initiated...] 
+[2023-06-27 16:00:40,075] - [com.zaxxer.hikari.HikariDataSource] [close] -> (INFO) [HikariPool-1 - Shutdown completed.] 
+[2023-06-27 16:00:40,079] - [org.apache.catalina.core.StandardService] [log] -> (INFO) [Stopping service [Tomcat]] 
+[2023-06-27 16:00:40,099] - [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] [logMessage] -> (INFO) [
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.] 
+[2023-06-27 16:00:40,130] - [org.springframework.boot.SpringApplication] [reportFailure] -> (ERROR) [Application run failed] 
+org.springframework.beans.factory.BeanInitializationException: Failed to process @EventListener annotation on bean with name 'javaEmailSending'; nested exception is java.lang.IllegalStateException: Maximum one parameter is allowed for event listener method: public void com.hcl.elch.freshersuperchargers.trainingworkflow.controller.JavaEmailSending.sendMail(java.lang.String,java.lang.String,java.lang.String)
+	at org.springframework.context.event.EventListenerMethodProcessor.afterSingletonsInstantiated(EventListenerMethodProcessor.java:157) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:974) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.6.12.jar:2.6.12]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745) ~[spring-boot-2.6.12.jar:2.6.12]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420) ~[spring-boot-2.6.12.jar:2.6.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) ~[spring-boot-2.6.12.jar:2.6.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317) ~[spring-boot-2.6.12.jar:2.6.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.6.12.jar:2.6.12]
+	at com.hcl.elch.freshersuperchargers.trainingworkflow.TrainingWorkflowApplication.main(TrainingWorkflowApplication.java:17) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.6.12.jar:2.6.12]
+Caused by: java.lang.IllegalStateException: Maximum one parameter is allowed for event listener method: public void com.hcl.elch.freshersuperchargers.trainingworkflow.controller.JavaEmailSending.sendMail(java.lang.String,java.lang.String,java.lang.String)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.resolveDeclaredEventTypes(ApplicationListenerMethodAdapter.java:127) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.<init>(ApplicationListenerMethodAdapter.java:117) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.context.event.DefaultEventListenerFactory.createApplicationListener(DefaultEventListenerFactory.java:56) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.context.event.EventListenerMethodProcessor.processBean(EventListenerMethodProcessor.java:200) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.context.event.EventListenerMethodProcessor.afterSingletonsInstantiated(EventListenerMethodProcessor.java:154) ~[spring-context-5.3.22.jar:5.3.22]
+	... 15 more
+[2023-06-27 16:46:11,258] - [org.hibernate.validator.internal.util.Version] [<clinit>] -> (INFO) [HV000001: Hibernate Validator 6.2.5.Final] 
+[2023-06-27 16:46:11,377] - [com.hcl.elch.freshersuperchargers.trainingworkflow.TrainingWorkflowApplication] [logStarting] -> (INFO) [Starting TrainingWorkflowApplication using Java 17.0.6 on asusvivobook with PID 5228 (D:\Tausif\Downloads\FreshSuperChargers-Aswini-Avula\FreshSuperChargers-Aswini-Avula\target\classes started by Tausif in D:\Tausif\Downloads\FreshSuperChargers-Aswini-Avula\FreshSuperChargers-Aswini-Avula)] 
+[2023-06-27 16:46:11,392] - [com.hcl.elch.freshersuperchargers.trainingworkflow.TrainingWorkflowApplication] [logStartupProfileInfo] -> (INFO) [No active profile set, falling back to 1 default profile: "default"] 
+[2023-06-27 16:46:11,575] - [org.springframework.boot.devtools.restart.ChangeableUrls] [logTo] -> (INFO) [The Class-Path manifest attribute in C:\Users\Tausif\.m2\repository\org\glassfish\hk2\hk2\2.6.1\hk2-2.6.1.jar referenced one or more files that do not exist: file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-utils.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/jakarta.annotation-api.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/jakarta.inject.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-api.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/aopalliance-repackaged.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-core.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-locator.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/javassist.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-runlevel.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/class-model.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-analysis.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-commons.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-tree.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-util.jar] 
+[2023-06-27 16:46:11,576] - [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [logTo] -> (INFO) [Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable] 
+[2023-06-27 16:46:11,577] - [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [logTo] -> (INFO) [For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'] 
+[2023-06-27 16:46:14,035] - [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [registerRepositoriesIn] -> (INFO) [Bootstrapping Spring Data JPA repositories in DEFAULT mode.] 
+[2023-06-27 16:46:14,410] - [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [registerRepositoriesIn] -> (INFO) [Finished Spring Data repository scanning in 329 ms. Found 7 JPA repository interfaces.] 
+[2023-06-27 16:46:16,633] - [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [initialize] -> (INFO) [Tomcat initialized with port(s): 9002 (http)] 
+[2023-06-27 16:46:16,653] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Initializing ProtocolHandler ["http-nio-9002"]] 
+[2023-06-27 16:46:16,655] - [org.apache.catalina.core.StandardService] [log] -> (INFO) [Starting service [Tomcat]] 
+[2023-06-27 16:46:16,656] - [org.apache.catalina.core.StandardEngine] [log] -> (INFO) [Starting Servlet engine: [Apache Tomcat/9.0.65]] 
+[2023-06-27 16:46:16,943] - [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [log] -> (INFO) [Initializing Spring embedded WebApplicationContext] 
+[2023-06-27 16:46:16,944] - [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [prepareWebApplicationContext] -> (INFO) [Root WebApplicationContext: initialization completed in 5364 ms] 
+[2023-06-27 16:46:17,024] - [org.camunda.bpm.spring.boot.starter.rest.CamundaJerseyResourceConfig] [registerCamundaRestResources] -> (INFO) [Configuring camunda rest api.] 
+[2023-06-27 16:46:17,082] - [org.camunda.bpm.spring.boot.starter.rest.CamundaJerseyResourceConfig] [registerCamundaRestResources] -> (INFO) [Finished configuring camunda rest api.] 
+[2023-06-27 16:46:17,869] - [org.hibernate.jpa.internal.util.LogHelper] [logPersistenceUnitInformation] -> (INFO) [HHH000204: Processing PersistenceUnitInfo [name: default]] 
+[2023-06-27 16:46:18,085] - [org.hibernate.Version] [logVersion] -> (INFO) [HHH000412: Hibernate ORM core version 5.6.11.Final] 
+[2023-06-27 16:46:18,558] - [org.hibernate.annotations.common.Version] [<clinit>] -> (INFO) [HCANN000001: Hibernate Commons Annotations {5.1.2.Final}] 
+[2023-06-27 16:46:18,872] - [com.zaxxer.hikari.HikariDataSource] [getConnection] -> (INFO) [HikariPool-1 - Starting...] 
+[2023-06-27 16:46:19,911] - [com.zaxxer.hikari.HikariDataSource] [getConnection] -> (INFO) [HikariPool-1 - Start completed.] 
+[2023-06-27 16:46:19,964] - [org.hibernate.dialect.Dialect] [<init>] -> (INFO) [HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect] 
+[2023-06-27 16:46:22,092] - [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [initiateService] -> (INFO) [HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]] 
+[2023-06-27 16:46:22,106] - [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [buildNativeEntityManagerFactory] -> (INFO) [Initialized JPA EntityManagerFactory for persistence unit 'default'] 
+[2023-06-27 16:46:22,276] - [org.camunda.bpm.spring.boot] [logInfo] -> (INFO) [STARTER-SB040 Setting up jobExecutor with corePoolSize=3, maxPoolSize:10] 
+[2023-06-27 16:46:22,516] - [org.camunda.bpm.engine.cfg] [logInfo] -> (INFO) [ENGINE-12003 Plugin 'CompositeProcessEnginePlugin[genericPropertiesConfiguration, camundaProcessEngineConfiguration, camundaDatasourceConfiguration, camundaJpaConfiguration, camundaJobConfiguration, camundaHistoryConfiguration, camundaMetricsConfiguration, camundaAuthorizationConfiguration, CreateAdminUserConfiguration[adminUser=AdminUserProperty[id=Test, firstName=Test, lastName=Test, email=Test@localhost, password=******]], failedJobConfiguration, disableDeploymentResourcePattern, eventPublisherPlugin, ApplicationContextClassloaderSwitchPlugin, SpringBootSpinProcessEnginePlugin]' activated on process engine 'default'] 
+[2023-06-27 16:46:22,529] - [org.camunda.bpm.spring.boot] [logInfo] -> (INFO) [STARTER-SB020 ProcessApplication enabled: autoDeployment via springConfiguration#deploymentResourcePattern is disabled] 
+[2023-06-27 16:46:22,533] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-001: Initialized Camunda Spring Boot Eventing Engine Plugin.] 
+[2023-06-27 16:46:22,533] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-003: Task events will be published as Spring Events.] 
+[2023-06-27 16:46:22,535] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-005: Execution events will be published as Spring Events.] 
+[2023-06-27 16:46:22,543] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-007: History events will be published as Spring events.] 
+[2023-06-27 16:46:22,556] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormatProvider[name = application/json]] 
+[2023-06-27 16:46:23,066] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormatProvider[name = application/xml]] 
+[2023-06-27 16:46:23,329] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormat[name = application/xml]] 
+[2023-06-27 16:46:23,331] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormat[name = application/json]] 
+[2023-06-27 16:46:23,830] - [org.camunda.bpm.dmn.feel.scala] [logInfo] -> (INFO) [FEEL/SCALA-01001 Spin value mapper detected] 
+[2023-06-27 16:46:24,057] - [org.camunda.feel.FeelEngine] [<init>] -> (INFO) [Engine created. [value-mapper: CompositeValueMapper(List(org.camunda.feel.impl.JavaValueMapper@2082fd89, org.camunda.spin.plugin.impl.feel.integration.SpinValueMapper@23805ccd)), function-provider: org.camunda.bpm.dmn.feel.impl.scala.function.CustomFunctionTransformer@2ce30e9, clock: SystemClock, configuration: Configuration(false)]] 
+[2023-06-27 16:46:35,007] - [org.camunda.bpm.connect] [logInfo] -> (INFO) [CNCT-01004 Discovered provider for connector id 'http-connector' and class 'org.camunda.connect.httpclient.impl.HttpConnectorImpl': 'org.camunda.connect.httpclient.impl.HttpConnectorProviderImpl'] 
+[2023-06-27 16:46:35,014] - [org.camunda.bpm.connect] [logInfo] -> (INFO) [CNCT-01004 Discovered provider for connector id 'soap-http-connector' and class 'org.camunda.connect.httpclient.soap.impl.SoapHttpConnectorImpl': 'org.camunda.connect.httpclient.soap.impl.SoapHttpConnectorProviderImpl'] 
+[2023-06-27 16:46:35,507] - [org.camunda.bpm.engine] [logInfo] -> (INFO) [ENGINE-00001 Process Engine default created.] 
+[2023-06-27 16:46:35,617] - [org.camunda.bpm.spring.boot] [logInfo] -> (INFO) [STARTER-SB011 Skip creating initial Admin User, user does exist: UserEntity[id=Test, revision=3, firstName=Test, lastName=Test, email=Test@localhost, password={SHA-512}sfb4lSg/21sQdiTxHeQ0gnxvuW2IIbT/b3w+ZFXi6d/4M3gBqHNLQZONFXd375ibtqquTYMhp29mDTJd+EecJw==, salt=B7vNYSEtAGJGbzTO9N4jDw==, lockExpirationTime=null, attempts=0]] 
+[2023-06-27 16:46:36,403] - [org.drools.compiler.kie.builder.impl.KieBuilderImpl] [packageNameForFile] -> (WARN) [File 'rules/tasks.drl' is in folder 'rules' but declares package 'com.foobat'. It is advised to have a correspondance between package and folder names.] 
+[2023-06-27 16:46:39,188] - [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [openEntityManagerInViewInterceptor] -> (WARN) [spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning] 
+[2023-06-27 16:46:40,074] - [org.camunda.bpm.spring.boot.starter.webapp.filter.LazyInitRegistration] [lazyInit] -> (INFO) [lazy initialized org.camunda.bpm.spring.boot.starter.webapp.filter.LazySecurityFilter@2647d472] 
+[2023-06-27 16:46:40,077] - [org.camunda.bpm.spring.boot.starter.webapp.filter.LazyInitRegistration] [lazyInit] -> (INFO) [lazy initialized org.camunda.bpm.spring.boot.starter.webapp.filter.LazyProcessEnginesFilter@6d2454ad] 
+[2023-06-27 16:46:40,757] - [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [startServer] -> (INFO) [LiveReload server is running on port 35729] 
+[2023-06-27 16:46:41,167] - [org.apache.kafka.clients.consumer.ConsumerConfig] [logAll] -> (INFO) [ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-myGroup1-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = myGroup1
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+] 
+[2023-06-27 16:46:41,658] - [org.apache.kafka.clients.consumer.ConsumerConfig] [logUnused] -> (WARN) [The configuration 'spring.json.trusted.packages' was supplied but isn't a known config.] 
+[2023-06-27 16:46:41,661] - [org.apache.kafka.clients.consumer.ConsumerConfig] [logUnused] -> (WARN) [The configuration 'spring.deserializer.value.delegate.class' was supplied but isn't a known config.] 
+[2023-06-27 16:46:41,676] - [org.apache.kafka.common.utils.AppInfoParser] [<init>] -> (INFO) [Kafka version: 3.0.2] 
+[2023-06-27 16:46:41,676] - [org.apache.kafka.common.utils.AppInfoParser] [<init>] -> (INFO) [Kafka commitId: 25b1aea02e37da14] 
+[2023-06-27 16:46:41,676] - [org.apache.kafka.common.utils.AppInfoParser] [<init>] -> (INFO) [Kafka startTimeMs: 1687864601662] 
+[2023-06-27 16:46:41,696] - [org.apache.kafka.clients.consumer.KafkaConsumer] [subscribe] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Subscribed to topic(s): newTask] 
+[2023-06-27 16:46:41,739] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Starting ProtocolHandler ["http-nio-9002"]] 
+[2023-06-27 16:46:41,797] - [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [start] -> (INFO) [Tomcat started on port(s): 9002 (http) with context path ''] 
+[2023-06-27 16:46:41,894] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08024 Found processes.xml file at file:/D:/Tausif/Downloads/FreshSuperChargers-Aswini-Avula/FreshSuperChargers-Aswini-Avula/target/classes/META-INF/processes.xml] 
+[2023-06-27 16:46:42,806] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08023 Deployment summary for process archive 'trainingWorkflowApplication': 
+
+        userform.form
+        training-workflow.bpmn
+] 
+[2023-06-27 16:46:43,564] - [org.apache.kafka.clients.Metadata] [updateLatestMetadata] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Resetting the last seen epoch of partition newTask-0 to 0 since the associated topicId changed from null to t0SiJO8IS42wB-IdMfGKFg] 
+[2023-06-27 16:46:43,573] - [org.apache.kafka.clients.Metadata] [update] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Cluster ID: 49wSc7t9TfCsKn1qSooxbQ] 
+[2023-06-27 16:46:43,618] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [onSuccess] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Discovered group coordinator asusvivobook:9092 (id: 2147483647 rack: null)] 
+[2023-06-27 16:46:43,626] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [sendJoinGroupRequest] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] (Re-)joining group] 
+[2023-06-27 16:46:44,017] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [requestRejoin] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Request joining group due to: need to re-join with the given member-id] 
+[2023-06-27 16:46:44,019] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [sendJoinGroupRequest] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] (Re-)joining group] 
+[2023-06-27 16:46:44,241] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [handle] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Successfully joined group with generation Generation{generationId=22, memberId='consumer-myGroup1-1-1b7807a1-235c-4011-9317-bc4366c0844e', protocol='range'}] 
+[2023-06-27 16:46:44,249] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [performAssignment] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Finished assignment for group at generation 22: {consumer-myGroup1-1-1b7807a1-235c-4011-9317-bc4366c0844e=Assignment(partitions=[newTask-0])}] 
+[2023-06-27 16:46:44,496] - [org.camunda.bpm.application] [logInfo] -> (INFO) [ENGINE-07021 ProcessApplication 'trainingWorkflowApplication' registered for DB deployments [ed4fab4a-127c-11ee-82db-809133675f5b]. Will execute process definitions 
+
+        Decision[version: 1, id: Decision:1:ed77578d-127c-11ee-82db-809133675f5b]
+Deployment does not provide any case definitions.] 
+[2023-06-27 16:46:44,511] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [handle] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Successfully synced group in generation Generation{generationId=22, memberId='consumer-myGroup1-1-1b7807a1-235c-4011-9317-bc4366c0844e', protocol='range'}] 
+[2023-06-27 16:46:44,513] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [invokeOnAssignment] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Notifying assignor about the new Assignment(partitions=[newTask-0])] 
+[2023-06-27 16:46:44,525] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08050 Process application trainingWorkflowApplication successfully deployed] 
+[2023-06-27 16:46:44,525] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [invokePartitionsAssigned] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Adding newly assigned partitions: newTask-0] 
+[2023-06-27 16:46:44,544] - [com.hcl.elch.freshersuperchargers.trainingworkflow.TrainingWorkflowApplication] [logStarted] -> (INFO) [Started TrainingWorkflowApplication in 34.257 seconds (JVM running for 40.063)] 
+[2023-06-27 16:46:44,558] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14014 Starting up the JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor].] 
+[2023-06-27 16:46:44,567] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14018 JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor] starting to acquire jobs] 
+[2023-06-27 16:46:44,598] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [refreshCommittedOffsetsIfNeeded] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Setting offset for partition newTask-0 to the committed offset FetchPosition{offset=14, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[asusvivobook:9092 (id: 0 rack: null)], epoch=0}}] 
+[2023-06-27 16:46:44,603] - [org.springframework.kafka.listener.KafkaMessageListenerContainer] [info] -> (INFO) [myGroup1: partitions assigned: [newTask-0]] 
+[2023-06-27 16:47:38,863] - [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [shutdown] -> (INFO) [Application shutdown requested.] 
+[2023-06-27 16:47:39,793] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08051 Process application trainingWorkflowApplication undeployed] 
+[2023-06-27 16:47:40,031] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Pausing ProtocolHandler ["http-nio-9002"]] 
+[2023-06-27 16:47:40,034] - [org.apache.catalina.core.StandardService] [log] -> (INFO) [Stopping service [Tomcat]] 
+[2023-06-27 16:47:40,322] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Stopping ProtocolHandler ["http-nio-9002"]] 
+[2023-06-27 16:47:40,375] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Destroying ProtocolHandler ["http-nio-9002"]] 
+[2023-06-27 16:47:40,429] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [invokePartitionsRevoked] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Revoke previously assigned partitions newTask-0] 
+[2023-06-27 16:47:40,441] - [org.springframework.kafka.listener.KafkaMessageListenerContainer] [info] -> (INFO) [myGroup1: partitions revoked: [newTask-0]] 
+[2023-06-27 16:47:40,449] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [maybeLeaveGroup] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Member consumer-myGroup1-1-1b7807a1-235c-4011-9317-bc4366c0844e sending LeaveGroup request to coordinator asusvivobook:9092 (id: 2147483647 rack: null) due to the consumer unsubscribed from all topics] 
+[2023-06-27 16:47:40,463] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [resetStateAndGeneration] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Resetting generation due to: consumer pro-actively leaving the group] 
+[2023-06-27 16:47:40,466] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [requestRejoin] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Request joining group due to: consumer pro-actively leaving the group] 
+[2023-06-27 16:47:40,468] - [org.apache.kafka.clients.consumer.KafkaConsumer] [unsubscribe] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Unsubscribed all topics or patterns and assigned partitions] 
+[2023-06-27 16:47:40,477] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [resetStateAndGeneration] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Resetting generation due to: consumer pro-actively leaving the group] 
+[2023-06-27 16:47:40,477] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [requestRejoin] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Request joining group due to: consumer pro-actively leaving the group] 
+[2023-06-27 16:47:41,056] - [org.apache.kafka.common.metrics.Metrics] [close] -> (INFO) [Metrics scheduler closed] 
+[2023-06-27 16:47:41,059] - [org.apache.kafka.common.metrics.Metrics] [close] -> (INFO) [Closing reporter org.apache.kafka.common.metrics.JmxReporter] 
+[2023-06-27 16:47:41,061] - [org.apache.kafka.common.metrics.Metrics] [close] -> (INFO) [Metrics reporters closed] 
+[2023-06-27 16:47:41,121] - [org.apache.kafka.common.utils.AppInfoParser] [unregisterAppInfo] -> (INFO) [App info kafka.consumer for consumer-myGroup1-1 unregistered] 
+[2023-06-27 16:47:41,125] - [org.springframework.kafka.listener.KafkaMessageListenerContainer] [info] -> (INFO) [myGroup1: Consumer stopped] 
+[2023-06-27 16:47:41,308] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14015 Shutting down the JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor]] 
+[2023-06-27 16:47:41,311] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14020 JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor] stopped job acquisition] 
+[2023-06-27 16:47:41,368] - [org.camunda.bpm.engine] [logInfo] -> (INFO) [ENGINE-00007 Process Engine default closed] 
+[2023-06-27 16:47:41,375] - [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [destroy] -> (INFO) [Closing JPA EntityManagerFactory for persistence unit 'default'] 
+[2023-06-27 16:47:41,497] - [com.zaxxer.hikari.HikariDataSource] [close] -> (INFO) [HikariPool-1 - Shutdown initiated...] 
+[2023-06-27 16:47:41,693] - [com.zaxxer.hikari.HikariDataSource] [close] -> (INFO) [HikariPool-1 - Shutdown completed.] 
+[2023-06-27 16:47:54,521] - [org.hibernate.validator.internal.util.Version] [<clinit>] -> (INFO) [HV000001: Hibernate Validator 6.2.5.Final] 
+[2023-06-27 16:47:54,628] - [com.hcl.elch.freshersuperchargers.trainingworkflow.TrainingWorkflowApplication] [logStarting] -> (INFO) [Starting TrainingWorkflowApplication using Java 17.0.6 on asusvivobook with PID 16424 (D:\Tausif\Downloads\FreshSuperChargers-Aswini-Avula\FreshSuperChargers-Aswini-Avula\target\classes started by Tausif in D:\Tausif\Downloads\FreshSuperChargers-Aswini-Avula\FreshSuperChargers-Aswini-Avula)] 
+[2023-06-27 16:47:54,644] - [com.hcl.elch.freshersuperchargers.trainingworkflow.TrainingWorkflowApplication] [logStartupProfileInfo] -> (INFO) [No active profile set, falling back to 1 default profile: "default"] 
+[2023-06-27 16:47:54,829] - [org.springframework.boot.devtools.restart.ChangeableUrls] [logTo] -> (INFO) [The Class-Path manifest attribute in C:\Users\Tausif\.m2\repository\org\glassfish\hk2\hk2\2.6.1\hk2-2.6.1.jar referenced one or more files that do not exist: file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-utils.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/jakarta.annotation-api.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/jakarta.inject.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-api.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/aopalliance-repackaged.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-core.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-locator.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/javassist.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-runlevel.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/class-model.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-analysis.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-commons.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-tree.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-util.jar] 
+[2023-06-27 16:47:54,832] - [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [logTo] -> (INFO) [Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable] 
+[2023-06-27 16:47:54,832] - [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [logTo] -> (INFO) [For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'] 
+[2023-06-27 16:47:56,674] - [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [registerRepositoriesIn] -> (INFO) [Bootstrapping Spring Data JPA repositories in DEFAULT mode.] 
+[2023-06-27 16:47:57,074] - [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [registerRepositoriesIn] -> (INFO) [Finished Spring Data repository scanning in 376 ms. Found 7 JPA repository interfaces.] 
+[2023-06-27 16:47:59,046] - [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [initialize] -> (INFO) [Tomcat initialized with port(s): 9002 (http)] 
+[2023-06-27 16:47:59,071] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Initializing ProtocolHandler ["http-nio-9002"]] 
+[2023-06-27 16:47:59,073] - [org.apache.catalina.core.StandardService] [log] -> (INFO) [Starting service [Tomcat]] 
+[2023-06-27 16:47:59,074] - [org.apache.catalina.core.StandardEngine] [log] -> (INFO) [Starting Servlet engine: [Apache Tomcat/9.0.65]] 
+[2023-06-27 16:47:59,380] - [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [log] -> (INFO) [Initializing Spring embedded WebApplicationContext] 
+[2023-06-27 16:47:59,380] - [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [prepareWebApplicationContext] -> (INFO) [Root WebApplicationContext: initialization completed in 4546 ms] 
+[2023-06-27 16:47:59,443] - [org.camunda.bpm.spring.boot.starter.rest.CamundaJerseyResourceConfig] [registerCamundaRestResources] -> (INFO) [Configuring camunda rest api.] 
+[2023-06-27 16:47:59,514] - [org.camunda.bpm.spring.boot.starter.rest.CamundaJerseyResourceConfig] [registerCamundaRestResources] -> (INFO) [Finished configuring camunda rest api.] 
+[2023-06-27 16:48:00,320] - [org.hibernate.jpa.internal.util.LogHelper] [logPersistenceUnitInformation] -> (INFO) [HHH000204: Processing PersistenceUnitInfo [name: default]] 
+[2023-06-27 16:48:00,530] - [org.hibernate.Version] [logVersion] -> (INFO) [HHH000412: Hibernate ORM core version 5.6.11.Final] 
+[2023-06-27 16:48:00,948] - [org.hibernate.annotations.common.Version] [<clinit>] -> (INFO) [HCANN000001: Hibernate Commons Annotations {5.1.2.Final}] 
+[2023-06-27 16:48:01,224] - [com.zaxxer.hikari.HikariDataSource] [getConnection] -> (INFO) [HikariPool-1 - Starting...] 
+[2023-06-27 16:48:02,276] - [com.zaxxer.hikari.HikariDataSource] [getConnection] -> (INFO) [HikariPool-1 - Start completed.] 
+[2023-06-27 16:48:02,366] - [org.hibernate.dialect.Dialect] [<init>] -> (INFO) [HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect] 
+[2023-06-27 16:48:04,824] - [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [initiateService] -> (INFO) [HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]] 
+[2023-06-27 16:48:04,863] - [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [buildNativeEntityManagerFactory] -> (INFO) [Initialized JPA EntityManagerFactory for persistence unit 'default'] 
+[2023-06-27 16:48:05,085] - [org.camunda.bpm.spring.boot] [logInfo] -> (INFO) [STARTER-SB040 Setting up jobExecutor with corePoolSize=3, maxPoolSize:10] 
+[2023-06-27 16:48:05,344] - [org.camunda.bpm.engine.cfg] [logInfo] -> (INFO) [ENGINE-12003 Plugin 'CompositeProcessEnginePlugin[genericPropertiesConfiguration, camundaProcessEngineConfiguration, camundaDatasourceConfiguration, camundaJpaConfiguration, camundaJobConfiguration, camundaHistoryConfiguration, camundaMetricsConfiguration, camundaAuthorizationConfiguration, CreateAdminUserConfiguration[adminUser=AdminUserProperty[id=Test, firstName=Test, lastName=Test, email=Test@localhost, password=******]], failedJobConfiguration, disableDeploymentResourcePattern, eventPublisherPlugin, ApplicationContextClassloaderSwitchPlugin, SpringBootSpinProcessEnginePlugin]' activated on process engine 'default'] 
+[2023-06-27 16:48:05,354] - [org.camunda.bpm.spring.boot] [logInfo] -> (INFO) [STARTER-SB020 ProcessApplication enabled: autoDeployment via springConfiguration#deploymentResourcePattern is disabled] 
+[2023-06-27 16:48:05,357] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-001: Initialized Camunda Spring Boot Eventing Engine Plugin.] 
+[2023-06-27 16:48:05,358] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-003: Task events will be published as Spring Events.] 
+[2023-06-27 16:48:05,358] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-005: Execution events will be published as Spring Events.] 
+[2023-06-27 16:48:05,364] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-007: History events will be published as Spring events.] 
+[2023-06-27 16:48:05,388] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormatProvider[name = application/json]] 
+[2023-06-27 16:48:05,908] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormatProvider[name = application/xml]] 
+[2023-06-27 16:48:06,143] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormat[name = application/xml]] 
+[2023-06-27 16:48:06,144] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormat[name = application/json]] 
+[2023-06-27 16:48:06,852] - [org.camunda.bpm.dmn.feel.scala] [logInfo] -> (INFO) [FEEL/SCALA-01001 Spin value mapper detected] 
+[2023-06-27 16:48:07,114] - [org.camunda.feel.FeelEngine] [<init>] -> (INFO) [Engine created. [value-mapper: CompositeValueMapper(List(org.camunda.feel.impl.JavaValueMapper@2b2280f, org.camunda.spin.plugin.impl.feel.integration.SpinValueMapper@623a12bf)), function-provider: org.camunda.bpm.dmn.feel.impl.scala.function.CustomFunctionTransformer@2460e3cb, clock: SystemClock, configuration: Configuration(false)]] 
+[2023-06-27 16:48:20,696] - [org.camunda.bpm.connect] [logInfo] -> (INFO) [CNCT-01004 Discovered provider for connector id 'http-connector' and class 'org.camunda.connect.httpclient.impl.HttpConnectorImpl': 'org.camunda.connect.httpclient.impl.HttpConnectorProviderImpl'] 
+[2023-06-27 16:48:20,706] - [org.camunda.bpm.connect] [logInfo] -> (INFO) [CNCT-01004 Discovered provider for connector id 'soap-http-connector' and class 'org.camunda.connect.httpclient.soap.impl.SoapHttpConnectorImpl': 'org.camunda.connect.httpclient.soap.impl.SoapHttpConnectorProviderImpl'] 
+[2023-06-27 16:48:21,900] - [org.camunda.bpm.engine] [logInfo] -> (INFO) [ENGINE-00001 Process Engine default created.] 
+[2023-06-27 16:48:22,100] - [org.camunda.bpm.spring.boot] [logInfo] -> (INFO) [STARTER-SB011 Skip creating initial Admin User, user does exist: UserEntity[id=Test, revision=3, firstName=Test, lastName=Test, email=Test@localhost, password={SHA-512}sfb4lSg/21sQdiTxHeQ0gnxvuW2IIbT/b3w+ZFXi6d/4M3gBqHNLQZONFXd375ibtqquTYMhp29mDTJd+EecJw==, salt=B7vNYSEtAGJGbzTO9N4jDw==, lockExpirationTime=null, attempts=0]] 
+[2023-06-27 16:48:23,506] - [org.drools.compiler.kie.builder.impl.KieBuilderImpl] [packageNameForFile] -> (WARN) [File 'rules/tasks.drl' is in folder 'rules' but declares package 'com.foobat'. It is advised to have a correspondance between package and folder names.] 
+[2023-06-27 16:48:26,330] - [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [openEntityManagerInViewInterceptor] -> (WARN) [spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning] 
+[2023-06-27 16:48:28,467] - [org.camunda.bpm.spring.boot.starter.webapp.filter.LazyInitRegistration] [lazyInit] -> (INFO) [lazy initialized org.camunda.bpm.spring.boot.starter.webapp.filter.LazySecurityFilter@14fd39e9] 
+[2023-06-27 16:48:28,470] - [org.camunda.bpm.spring.boot.starter.webapp.filter.LazyInitRegistration] [lazyInit] -> (INFO) [lazy initialized org.camunda.bpm.spring.boot.starter.webapp.filter.LazyProcessEnginesFilter@565aea2] 
+[2023-06-27 16:48:29,385] - [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [startServer] -> (INFO) [LiveReload server is running on port 35729] 
+[2023-06-27 16:48:30,027] - [org.apache.kafka.clients.consumer.ConsumerConfig] [logAll] -> (INFO) [ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-myGroup1-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = myGroup1
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+] 
+[2023-06-27 16:48:30,631] - [org.apache.kafka.clients.consumer.ConsumerConfig] [logUnused] -> (WARN) [The configuration 'spring.json.trusted.packages' was supplied but isn't a known config.] 
+[2023-06-27 16:48:30,632] - [org.apache.kafka.clients.consumer.ConsumerConfig] [logUnused] -> (WARN) [The configuration 'spring.deserializer.value.delegate.class' was supplied but isn't a known config.] 
+[2023-06-27 16:48:30,637] - [org.apache.kafka.common.utils.AppInfoParser] [<init>] -> (INFO) [Kafka version: 3.0.2] 
+[2023-06-27 16:48:30,637] - [org.apache.kafka.common.utils.AppInfoParser] [<init>] -> (INFO) [Kafka commitId: 25b1aea02e37da14] 
+[2023-06-27 16:48:30,639] - [org.apache.kafka.common.utils.AppInfoParser] [<init>] -> (INFO) [Kafka startTimeMs: 1687864710632] 
+[2023-06-27 16:48:30,684] - [org.apache.kafka.clients.consumer.KafkaConsumer] [subscribe] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Subscribed to topic(s): newTask] 
+[2023-06-27 16:48:30,776] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Starting ProtocolHandler ["http-nio-9002"]] 
+[2023-06-27 16:48:30,846] - [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [start] -> (INFO) [Tomcat started on port(s): 9002 (http) with context path ''] 
+[2023-06-27 16:48:30,940] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08024 Found processes.xml file at file:/D:/Tausif/Downloads/FreshSuperChargers-Aswini-Avula/FreshSuperChargers-Aswini-Avula/target/classes/META-INF/processes.xml] 
+[2023-06-27 16:48:31,124] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08023 Deployment summary for process archive 'trainingWorkflowApplication': 
+
+        userform.form
+        training-workflow.bpmn
+] 
+[2023-06-27 16:48:32,674] - [org.camunda.bpm.application] [logInfo] -> (INFO) [ENGINE-07021 ProcessApplication 'trainingWorkflowApplication' registered for DB deployments [ed4fab4a-127c-11ee-82db-809133675f5b]. Will execute process definitions 
+
+        Decision[version: 1, id: Decision:1:ed77578d-127c-11ee-82db-809133675f5b]
+Deployment does not provide any case definitions.] 
+[2023-06-27 16:48:32,691] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08050 Process application trainingWorkflowApplication successfully deployed] 
+[2023-06-27 16:48:32,714] - [com.hcl.elch.freshersuperchargers.trainingworkflow.TrainingWorkflowApplication] [logStarted] -> (INFO) [Started TrainingWorkflowApplication in 38.865 seconds (JVM running for 43.281)] 
+[2023-06-27 16:48:32,735] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14014 Starting up the JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor].] 
+[2023-06-27 16:48:32,828] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14018 JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor] starting to acquire jobs] 
+[2023-06-27 16:48:32,850] - [org.apache.kafka.clients.Metadata] [updateLatestMetadata] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Resetting the last seen epoch of partition newTask-0 to 0 since the associated topicId changed from null to t0SiJO8IS42wB-IdMfGKFg] 
+[2023-06-27 16:48:32,861] - [org.apache.kafka.clients.Metadata] [update] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Cluster ID: 49wSc7t9TfCsKn1qSooxbQ] 
+[2023-06-27 16:48:32,945] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [onSuccess] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Discovered group coordinator asusvivobook:9092 (id: 2147483647 rack: null)] 
+[2023-06-27 16:48:32,954] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [sendJoinGroupRequest] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] (Re-)joining group] 
+[2023-06-27 16:48:33,137] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [requestRejoin] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Request joining group due to: need to re-join with the given member-id] 
+[2023-06-27 16:48:33,139] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [sendJoinGroupRequest] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] (Re-)joining group] 
+[2023-06-27 16:48:33,344] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [handle] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Successfully joined group with generation Generation{generationId=24, memberId='consumer-myGroup1-1-8dddaba5-38fd-46f7-a1cc-b5c257987e31', protocol='range'}] 
+[2023-06-27 16:48:33,355] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [performAssignment] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Finished assignment for group at generation 24: {consumer-myGroup1-1-8dddaba5-38fd-46f7-a1cc-b5c257987e31=Assignment(partitions=[newTask-0])}] 
+[2023-06-27 16:48:34,227] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [handle] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Successfully synced group in generation Generation{generationId=24, memberId='consumer-myGroup1-1-8dddaba5-38fd-46f7-a1cc-b5c257987e31', protocol='range'}] 
+[2023-06-27 16:48:34,235] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [invokeOnAssignment] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Notifying assignor about the new Assignment(partitions=[newTask-0])] 
+[2023-06-27 16:48:34,248] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [invokePartitionsAssigned] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Adding newly assigned partitions: newTask-0] 
+[2023-06-27 16:48:34,317] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [refreshCommittedOffsetsIfNeeded] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Setting offset for partition newTask-0 to the committed offset FetchPosition{offset=14, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[asusvivobook:9092 (id: 0 rack: null)], epoch=0}}] 
+[2023-06-27 16:48:34,321] - [org.springframework.kafka.listener.KafkaMessageListenerContainer] [info] -> (INFO) [myGroup1: partitions assigned: [newTask-0]] 
+[2023-06-27 16:51:16,329] - [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [shutdown] -> (INFO) [Application shutdown requested.] 
+[2023-06-27 16:51:26,963] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08051 Process application trainingWorkflowApplication undeployed] 
+[2023-06-27 16:51:27,349] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Pausing ProtocolHandler ["http-nio-9002"]] 
+[2023-06-27 16:51:27,352] - [org.apache.catalina.core.StandardService] [log] -> (INFO) [Stopping service [Tomcat]] 
+[2023-06-27 16:51:27,700] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Stopping ProtocolHandler ["http-nio-9002"]] 
+[2023-06-27 16:51:27,757] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Destroying ProtocolHandler ["http-nio-9002"]] 
+[2023-06-27 16:51:27,845] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [invokePartitionsRevoked] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Revoke previously assigned partitions newTask-0] 
+[2023-06-27 16:51:27,854] - [org.springframework.kafka.listener.KafkaMessageListenerContainer] [info] -> (INFO) [myGroup1: partitions revoked: [newTask-0]] 
+[2023-06-27 16:51:27,865] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [maybeLeaveGroup] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Member consumer-myGroup1-1-8dddaba5-38fd-46f7-a1cc-b5c257987e31 sending LeaveGroup request to coordinator asusvivobook:9092 (id: 2147483647 rack: null) due to the consumer unsubscribed from all topics] 
+[2023-06-27 16:51:27,874] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [resetStateAndGeneration] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Resetting generation due to: consumer pro-actively leaving the group] 
+[2023-06-27 16:51:27,875] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [requestRejoin] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Request joining group due to: consumer pro-actively leaving the group] 
+[2023-06-27 16:51:27,877] - [org.apache.kafka.clients.consumer.KafkaConsumer] [unsubscribe] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Unsubscribed all topics or patterns and assigned partitions] 
+[2023-06-27 16:51:27,884] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [resetStateAndGeneration] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Resetting generation due to: consumer pro-actively leaving the group] 
+[2023-06-27 16:51:27,884] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [requestRejoin] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Request joining group due to: consumer pro-actively leaving the group] 
+[2023-06-27 16:51:28,337] - [org.apache.kafka.common.metrics.Metrics] [close] -> (INFO) [Metrics scheduler closed] 
+[2023-06-27 16:51:28,340] - [org.apache.kafka.common.metrics.Metrics] [close] -> (INFO) [Closing reporter org.apache.kafka.common.metrics.JmxReporter] 
+[2023-06-27 16:51:28,345] - [org.apache.kafka.common.metrics.Metrics] [close] -> (INFO) [Metrics reporters closed] 
+[2023-06-27 16:51:28,417] - [org.apache.kafka.common.utils.AppInfoParser] [unregisterAppInfo] -> (INFO) [App info kafka.consumer for consumer-myGroup1-1 unregistered] 
+[2023-06-27 16:51:28,426] - [org.springframework.kafka.listener.KafkaMessageListenerContainer] [info] -> (INFO) [myGroup1: Consumer stopped] 
+[2023-06-27 16:51:29,305] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14015 Shutting down the JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor]] 
+[2023-06-27 16:51:29,307] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14020 JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor] stopped job acquisition] 
+[2023-06-27 16:51:29,344] - [org.camunda.bpm.engine] [logInfo] -> (INFO) [ENGINE-00007 Process Engine default closed] 
+[2023-06-27 16:51:29,350] - [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [destroy] -> (INFO) [Closing JPA EntityManagerFactory for persistence unit 'default'] 
+[2023-06-27 16:51:29,471] - [com.zaxxer.hikari.HikariDataSource] [close] -> (INFO) [HikariPool-1 - Shutdown initiated...] 
+[2023-06-27 16:51:29,682] - [com.zaxxer.hikari.HikariDataSource] [close] -> (INFO) [HikariPool-1 - Shutdown completed.] 
+[2023-06-27 16:51:39,855] - [org.hibernate.validator.internal.util.Version] [<clinit>] -> (INFO) [HV000001: Hibernate Validator 6.2.5.Final] 
+[2023-06-27 16:51:39,961] - [com.hcl.elch.freshersuperchargers.trainingworkflow.TrainingWorkflowApplication] [logStarting] -> (INFO) [Starting TrainingWorkflowApplication using Java 17.0.6 on asusvivobook with PID 21924 (D:\Tausif\Downloads\FreshSuperChargers-Aswini-Avula\FreshSuperChargers-Aswini-Avula\target\classes started by Tausif in D:\Tausif\Downloads\FreshSuperChargers-Aswini-Avula\FreshSuperChargers-Aswini-Avula)] 
+[2023-06-27 16:51:39,975] - [com.hcl.elch.freshersuperchargers.trainingworkflow.TrainingWorkflowApplication] [logStartupProfileInfo] -> (INFO) [No active profile set, falling back to 1 default profile: "default"] 
+[2023-06-27 16:51:40,130] - [org.springframework.boot.devtools.restart.ChangeableUrls] [logTo] -> (INFO) [The Class-Path manifest attribute in C:\Users\Tausif\.m2\repository\org\glassfish\hk2\hk2\2.6.1\hk2-2.6.1.jar referenced one or more files that do not exist: file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-utils.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/jakarta.annotation-api.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/jakarta.inject.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-api.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/aopalliance-repackaged.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-core.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-locator.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/javassist.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-runlevel.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/class-model.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-analysis.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-commons.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-tree.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-util.jar] 
+[2023-06-27 16:51:40,132] - [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [logTo] -> (INFO) [Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable] 
+[2023-06-27 16:51:40,132] - [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [logTo] -> (INFO) [For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'] 
+[2023-06-27 16:51:41,826] - [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [registerRepositoriesIn] -> (INFO) [Bootstrapping Spring Data JPA repositories in DEFAULT mode.] 
+[2023-06-27 16:51:42,013] - [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [registerRepositoriesIn] -> (INFO) [Finished Spring Data repository scanning in 161 ms. Found 7 JPA repository interfaces.] 
+[2023-06-27 16:51:44,045] - [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [initialize] -> (INFO) [Tomcat initialized with port(s): 9002 (http)] 
+[2023-06-27 16:51:44,068] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Initializing ProtocolHandler ["http-nio-9002"]] 
+[2023-06-27 16:51:44,070] - [org.apache.catalina.core.StandardService] [log] -> (INFO) [Starting service [Tomcat]] 
+[2023-06-27 16:51:44,073] - [org.apache.catalina.core.StandardEngine] [log] -> (INFO) [Starting Servlet engine: [Apache Tomcat/9.0.65]] 
+[2023-06-27 16:51:44,596] - [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [log] -> (INFO) [Initializing Spring embedded WebApplicationContext] 
+[2023-06-27 16:51:44,597] - [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [prepareWebApplicationContext] -> (INFO) [Root WebApplicationContext: initialization completed in 4464 ms] 
+[2023-06-27 16:51:44,663] - [org.camunda.bpm.spring.boot.starter.rest.CamundaJerseyResourceConfig] [registerCamundaRestResources] -> (INFO) [Configuring camunda rest api.] 
+[2023-06-27 16:51:44,714] - [org.camunda.bpm.spring.boot.starter.rest.CamundaJerseyResourceConfig] [registerCamundaRestResources] -> (INFO) [Finished configuring camunda rest api.] 
+[2023-06-27 16:51:45,481] - [org.hibernate.jpa.internal.util.LogHelper] [logPersistenceUnitInformation] -> (INFO) [HHH000204: Processing PersistenceUnitInfo [name: default]] 
+[2023-06-27 16:51:45,647] - [org.hibernate.Version] [logVersion] -> (INFO) [HHH000412: Hibernate ORM core version 5.6.11.Final] 
+[2023-06-27 16:51:46,057] - [org.hibernate.annotations.common.Version] [<clinit>] -> (INFO) [HCANN000001: Hibernate Commons Annotations {5.1.2.Final}] 
+[2023-06-27 16:51:46,322] - [com.zaxxer.hikari.HikariDataSource] [getConnection] -> (INFO) [HikariPool-1 - Starting...] 
+[2023-06-27 16:51:47,144] - [com.zaxxer.hikari.HikariDataSource] [getConnection] -> (INFO) [HikariPool-1 - Start completed.] 
+[2023-06-27 16:51:47,194] - [org.hibernate.dialect.Dialect] [<init>] -> (INFO) [HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect] 
+[2023-06-27 16:51:49,102] - [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [initiateService] -> (INFO) [HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]] 
+[2023-06-27 16:51:49,116] - [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [buildNativeEntityManagerFactory] -> (INFO) [Initialized JPA EntityManagerFactory for persistence unit 'default'] 
+[2023-06-27 16:51:49,272] - [org.camunda.bpm.spring.boot] [logInfo] -> (INFO) [STARTER-SB040 Setting up jobExecutor with corePoolSize=3, maxPoolSize:10] 
+[2023-06-27 16:51:49,480] - [org.camunda.bpm.engine.cfg] [logInfo] -> (INFO) [ENGINE-12003 Plugin 'CompositeProcessEnginePlugin[genericPropertiesConfiguration, camundaProcessEngineConfiguration, camundaDatasourceConfiguration, camundaJpaConfiguration, camundaJobConfiguration, camundaHistoryConfiguration, camundaMetricsConfiguration, camundaAuthorizationConfiguration, CreateAdminUserConfiguration[adminUser=AdminUserProperty[id=Test, firstName=Test, lastName=Test, email=Test@localhost, password=******]], failedJobConfiguration, disableDeploymentResourcePattern, eventPublisherPlugin, ApplicationContextClassloaderSwitchPlugin, SpringBootSpinProcessEnginePlugin]' activated on process engine 'default'] 
+[2023-06-27 16:51:49,493] - [org.camunda.bpm.spring.boot] [logInfo] -> (INFO) [STARTER-SB020 ProcessApplication enabled: autoDeployment via springConfiguration#deploymentResourcePattern is disabled] 
+[2023-06-27 16:51:49,499] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-001: Initialized Camunda Spring Boot Eventing Engine Plugin.] 
+[2023-06-27 16:51:49,500] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-003: Task events will be published as Spring Events.] 
+[2023-06-27 16:51:49,500] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-005: Execution events will be published as Spring Events.] 
+[2023-06-27 16:51:49,507] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-007: History events will be published as Spring events.] 
+[2023-06-27 16:51:49,531] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormatProvider[name = application/json]] 
+[2023-06-27 16:51:50,046] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormatProvider[name = application/xml]] 
+[2023-06-27 16:51:50,251] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormat[name = application/xml]] 
+[2023-06-27 16:51:50,252] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormat[name = application/json]] 
+[2023-06-27 16:51:50,765] - [org.camunda.bpm.dmn.feel.scala] [logInfo] -> (INFO) [FEEL/SCALA-01001 Spin value mapper detected] 
+[2023-06-27 16:51:50,945] - [org.camunda.feel.FeelEngine] [<init>] -> (INFO) [Engine created. [value-mapper: CompositeValueMapper(List(org.camunda.feel.impl.JavaValueMapper@2082fd89, org.camunda.spin.plugin.impl.feel.integration.SpinValueMapper@23805ccd)), function-provider: org.camunda.bpm.dmn.feel.impl.scala.function.CustomFunctionTransformer@2ce30e9, clock: SystemClock, configuration: Configuration(false)]] 
+[2023-06-27 16:52:01,117] - [org.camunda.bpm.connect] [logInfo] -> (INFO) [CNCT-01004 Discovered provider for connector id 'http-connector' and class 'org.camunda.connect.httpclient.impl.HttpConnectorImpl': 'org.camunda.connect.httpclient.impl.HttpConnectorProviderImpl'] 
+[2023-06-27 16:52:01,126] - [org.camunda.bpm.connect] [logInfo] -> (INFO) [CNCT-01004 Discovered provider for connector id 'soap-http-connector' and class 'org.camunda.connect.httpclient.soap.impl.SoapHttpConnectorImpl': 'org.camunda.connect.httpclient.soap.impl.SoapHttpConnectorProviderImpl'] 
+[2023-06-27 16:52:01,787] - [org.camunda.bpm.engine] [logInfo] -> (INFO) [ENGINE-00001 Process Engine default created.] 
+[2023-06-27 16:52:01,891] - [org.camunda.bpm.spring.boot] [logInfo] -> (INFO) [STARTER-SB011 Skip creating initial Admin User, user does exist: UserEntity[id=Test, revision=3, firstName=Test, lastName=Test, email=Test@localhost, password={SHA-512}sfb4lSg/21sQdiTxHeQ0gnxvuW2IIbT/b3w+ZFXi6d/4M3gBqHNLQZONFXd375ibtqquTYMhp29mDTJd+EecJw==, salt=B7vNYSEtAGJGbzTO9N4jDw==, lockExpirationTime=null, attempts=0]] 
+[2023-06-27 16:52:02,518] - [org.drools.compiler.kie.builder.impl.KieBuilderImpl] [packageNameForFile] -> (WARN) [File 'rules/tasks.drl' is in folder 'rules' but declares package 'com.foobat'. It is advised to have a correspondance between package and folder names.] 
+[2023-06-27 16:52:04,759] - [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [openEntityManagerInViewInterceptor] -> (WARN) [spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning] 
+[2023-06-27 16:52:05,796] - [org.camunda.bpm.spring.boot.starter.webapp.filter.LazyInitRegistration] [lazyInit] -> (INFO) [lazy initialized org.camunda.bpm.spring.boot.starter.webapp.filter.LazySecurityFilter@2a110a53] 
+[2023-06-27 16:52:05,802] - [org.camunda.bpm.spring.boot.starter.webapp.filter.LazyInitRegistration] [lazyInit] -> (INFO) [lazy initialized org.camunda.bpm.spring.boot.starter.webapp.filter.LazyProcessEnginesFilter@558bc3cd] 
+[2023-06-27 16:52:06,289] - [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [startServer] -> (INFO) [LiveReload server is running on port 35729] 
+[2023-06-27 16:52:06,769] - [org.apache.kafka.clients.consumer.ConsumerConfig] [logAll] -> (INFO) [ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-myGroup1-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = myGroup1
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+] 
+[2023-06-27 16:52:07,092] - [org.apache.kafka.clients.consumer.ConsumerConfig] [logUnused] -> (WARN) [The configuration 'spring.json.trusted.packages' was supplied but isn't a known config.] 
+[2023-06-27 16:52:07,093] - [org.apache.kafka.clients.consumer.ConsumerConfig] [logUnused] -> (WARN) [The configuration 'spring.deserializer.value.delegate.class' was supplied but isn't a known config.] 
+[2023-06-27 16:52:07,099] - [org.apache.kafka.common.utils.AppInfoParser] [<init>] -> (INFO) [Kafka version: 3.0.2] 
+[2023-06-27 16:52:07,099] - [org.apache.kafka.common.utils.AppInfoParser] [<init>] -> (INFO) [Kafka commitId: 25b1aea02e37da14] 
+[2023-06-27 16:52:07,100] - [org.apache.kafka.common.utils.AppInfoParser] [<init>] -> (INFO) [Kafka startTimeMs: 1687864927093] 
+[2023-06-27 16:52:07,115] - [org.apache.kafka.clients.consumer.KafkaConsumer] [subscribe] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Subscribed to topic(s): newTask] 
+[2023-06-27 16:52:07,146] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Starting ProtocolHandler ["http-nio-9002"]] 
+[2023-06-27 16:52:07,201] - [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [start] -> (INFO) [Tomcat started on port(s): 9002 (http) with context path ''] 
+[2023-06-27 16:52:07,321] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08024 Found processes.xml file at file:/D:/Tausif/Downloads/FreshSuperChargers-Aswini-Avula/FreshSuperChargers-Aswini-Avula/target/classes/META-INF/processes.xml] 
+[2023-06-27 16:52:07,515] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08023 Deployment summary for process archive 'trainingWorkflowApplication': 
+
+        userform.form
+        training-workflow.bpmn
+] 
+[2023-06-27 16:52:08,472] - [org.camunda.bpm.application] [logInfo] -> (INFO) [ENGINE-07021 ProcessApplication 'trainingWorkflowApplication' registered for DB deployments [ed4fab4a-127c-11ee-82db-809133675f5b]. Will execute process definitions 
+
+        Decision[version: 1, id: Decision:1:ed77578d-127c-11ee-82db-809133675f5b]
+Deployment does not provide any case definitions.] 
+[2023-06-27 16:52:08,484] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08050 Process application trainingWorkflowApplication successfully deployed] 
+[2023-06-27 16:52:08,495] - [com.hcl.elch.freshersuperchargers.trainingworkflow.TrainingWorkflowApplication] [logStarted] -> (INFO) [Started TrainingWorkflowApplication in 29.668 seconds (JVM running for 33.013)] 
+[2023-06-27 16:52:08,505] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14014 Starting up the JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor].] 
+[2023-06-27 16:52:08,512] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14018 JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor] starting to acquire jobs] 
+[2023-06-27 16:52:08,564] - [org.apache.kafka.clients.Metadata] [updateLatestMetadata] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Resetting the last seen epoch of partition newTask-0 to 0 since the associated topicId changed from null to t0SiJO8IS42wB-IdMfGKFg] 
+[2023-06-27 16:52:08,572] - [org.apache.kafka.clients.Metadata] [update] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Cluster ID: 49wSc7t9TfCsKn1qSooxbQ] 
+[2023-06-27 16:52:08,581] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [onSuccess] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Discovered group coordinator asusvivobook:9092 (id: 2147483647 rack: null)] 
+[2023-06-27 16:52:08,597] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [sendJoinGroupRequest] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] (Re-)joining group] 
+[2023-06-27 16:52:08,717] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [requestRejoin] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Request joining group due to: need to re-join with the given member-id] 
+[2023-06-27 16:52:08,719] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [sendJoinGroupRequest] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] (Re-)joining group] 
+[2023-06-27 16:52:08,775] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [handle] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Successfully joined group with generation Generation{generationId=26, memberId='consumer-myGroup1-1-52c5c205-3a30-4380-8259-2fa182c5df29', protocol='range'}] 
+[2023-06-27 16:52:08,783] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [performAssignment] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Finished assignment for group at generation 26: {consumer-myGroup1-1-52c5c205-3a30-4380-8259-2fa182c5df29=Assignment(partitions=[newTask-0])}] 
+[2023-06-27 16:52:08,853] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [handle] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Successfully synced group in generation Generation{generationId=26, memberId='consumer-myGroup1-1-52c5c205-3a30-4380-8259-2fa182c5df29', protocol='range'}] 
+[2023-06-27 16:52:08,855] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [invokeOnAssignment] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Notifying assignor about the new Assignment(partitions=[newTask-0])] 
+[2023-06-27 16:52:08,865] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [invokePartitionsAssigned] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Adding newly assigned partitions: newTask-0] 
+[2023-06-27 16:52:08,927] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [refreshCommittedOffsetsIfNeeded] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Setting offset for partition newTask-0 to the committed offset FetchPosition{offset=14, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[asusvivobook:9092 (id: 0 rack: null)], epoch=0}}] 
+[2023-06-27 16:52:08,931] - [org.springframework.kafka.listener.KafkaMessageListenerContainer] [info] -> (INFO) [myGroup1: partitions assigned: [newTask-0]] 
+[2023-06-27 16:55:36,045] - [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [log] -> (INFO) [Initializing Spring DispatcherServlet 'dispatcherServlet'] 
+[2023-06-27 16:55:36,047] - [org.springframework.web.servlet.DispatcherServlet] [initServletBean] -> (INFO) [Initializing Servlet 'dispatcherServlet'] 
+[2023-06-27 16:55:36,053] - [org.springframework.web.servlet.DispatcherServlet] [initServletBean] -> (INFO) [Completed initialization in 6 ms] 
+[2023-06-27 16:55:36,877] - [org.apache.catalina.util.SessionIdGeneratorBase] [log] -> (WARN) [Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [781] milliseconds.] 
+[2023-06-27 17:00:28,126] - [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [shutdown] -> (INFO) [Application shutdown requested.] 
+[2023-06-27 17:00:28,727] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08051 Process application trainingWorkflowApplication undeployed] 
+[2023-06-27 17:00:29,013] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Pausing ProtocolHandler ["http-nio-9002"]] 
+[2023-06-27 17:00:29,017] - [org.apache.catalina.core.StandardService] [log] -> (INFO) [Stopping service [Tomcat]] 
+[2023-06-27 17:00:29,224] - [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [log] -> (INFO) [Destroying Spring FrameworkServlet 'dispatcherServlet'] 
+[2023-06-27 17:00:29,307] - [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [shutdown] -> (INFO) [Application shutdown requested.] 
+[2023-06-27 17:00:29,530] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Stopping ProtocolHandler ["http-nio-9002"]] 
+[2023-06-27 17:00:29,660] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Destroying ProtocolHandler ["http-nio-9002"]] 
+[2023-06-27 17:00:29,718] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [invokePartitionsRevoked] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Revoke previously assigned partitions newTask-0] 
+[2023-06-27 17:00:29,725] - [org.springframework.kafka.listener.KafkaMessageListenerContainer] [info] -> (INFO) [myGroup1: partitions revoked: [newTask-0]] 
+[2023-06-27 17:00:29,733] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [maybeLeaveGroup] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Member consumer-myGroup1-1-52c5c205-3a30-4380-8259-2fa182c5df29 sending LeaveGroup request to coordinator asusvivobook:9092 (id: 2147483647 rack: null) due to the consumer unsubscribed from all topics] 
+[2023-06-27 17:00:29,749] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [resetStateAndGeneration] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Resetting generation due to: consumer pro-actively leaving the group] 
+[2023-06-27 17:00:29,749] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [requestRejoin] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Request joining group due to: consumer pro-actively leaving the group] 
+[2023-06-27 17:00:29,751] - [org.apache.kafka.clients.consumer.KafkaConsumer] [unsubscribe] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Unsubscribed all topics or patterns and assigned partitions] 
+[2023-06-27 17:00:29,758] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [resetStateAndGeneration] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Resetting generation due to: consumer pro-actively leaving the group] 
+[2023-06-27 17:00:29,759] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [requestRejoin] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Request joining group due to: consumer pro-actively leaving the group] 
+[2023-06-27 17:00:30,160] - [org.apache.kafka.common.metrics.Metrics] [close] -> (INFO) [Metrics scheduler closed] 
+[2023-06-27 17:00:30,161] - [org.apache.kafka.common.metrics.Metrics] [close] -> (INFO) [Closing reporter org.apache.kafka.common.metrics.JmxReporter] 
+[2023-06-27 17:00:30,162] - [org.apache.kafka.common.metrics.Metrics] [close] -> (INFO) [Metrics reporters closed] 
+[2023-06-27 17:00:30,300] - [org.apache.kafka.common.utils.AppInfoParser] [unregisterAppInfo] -> (INFO) [App info kafka.consumer for consumer-myGroup1-1 unregistered] 
+[2023-06-27 17:00:30,307] - [org.springframework.kafka.listener.KafkaMessageListenerContainer] [info] -> (INFO) [myGroup1: Consumer stopped] 
+[2023-06-27 17:00:30,501] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14015 Shutting down the JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor]] 
+[2023-06-27 17:00:30,502] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14020 JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor] stopped job acquisition] 
+[2023-06-27 17:00:30,545] - [org.camunda.bpm.engine] [logInfo] -> (INFO) [ENGINE-00007 Process Engine default closed] 
+[2023-06-27 17:00:30,550] - [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [destroy] -> (INFO) [Closing JPA EntityManagerFactory for persistence unit 'default'] 
+[2023-06-27 17:00:30,621] - [com.zaxxer.hikari.HikariDataSource] [close] -> (INFO) [HikariPool-1 - Shutdown initiated...] 
+[2023-06-27 17:00:30,770] - [com.zaxxer.hikari.HikariDataSource] [close] -> (INFO) [HikariPool-1 - Shutdown completed.] 
+[2023-06-27 17:00:39,742] - [org.hibernate.validator.internal.util.Version] [<clinit>] -> (INFO) [HV000001: Hibernate Validator 6.2.5.Final] 
+[2023-06-27 17:00:39,840] - [com.hcl.elch.freshersuperchargers.trainingworkflow.TrainingWorkflowApplication] [logStarting] -> (INFO) [Starting TrainingWorkflowApplication using Java 17.0.6 on asusvivobook with PID 15236 (D:\Tausif\Downloads\FreshSuperChargers-Aswini-Avula\FreshSuperChargers-Aswini-Avula\target\classes started by Tausif in D:\Tausif\Downloads\FreshSuperChargers-Aswini-Avula\FreshSuperChargers-Aswini-Avula)] 
+[2023-06-27 17:00:39,862] - [com.hcl.elch.freshersuperchargers.trainingworkflow.TrainingWorkflowApplication] [logStartupProfileInfo] -> (INFO) [No active profile set, falling back to 1 default profile: "default"] 
+[2023-06-27 17:00:40,066] - [org.springframework.boot.devtools.restart.ChangeableUrls] [logTo] -> (INFO) [The Class-Path manifest attribute in C:\Users\Tausif\.m2\repository\org\glassfish\hk2\hk2\2.6.1\hk2-2.6.1.jar referenced one or more files that do not exist: file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-utils.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/jakarta.annotation-api.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/jakarta.inject.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-api.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/aopalliance-repackaged.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-core.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-locator.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/javassist.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-runlevel.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/class-model.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-analysis.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-commons.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-tree.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-util.jar] 
+[2023-06-27 17:00:40,068] - [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [logTo] -> (INFO) [Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable] 
+[2023-06-27 17:00:40,069] - [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [logTo] -> (INFO) [For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'] 
+[2023-06-27 17:00:41,736] - [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [registerRepositoriesIn] -> (INFO) [Bootstrapping Spring Data JPA repositories in DEFAULT mode.] 
+[2023-06-27 17:00:41,878] - [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [registerRepositoriesIn] -> (INFO) [Finished Spring Data repository scanning in 125 ms. Found 7 JPA repository interfaces.] 
+[2023-06-27 17:00:43,599] - [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [initialize] -> (INFO) [Tomcat initialized with port(s): 9002 (http)] 
+[2023-06-27 17:00:43,620] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Initializing ProtocolHandler ["http-nio-9002"]] 
+[2023-06-27 17:00:43,621] - [org.apache.catalina.core.StandardService] [log] -> (INFO) [Starting service [Tomcat]] 
+[2023-06-27 17:00:43,622] - [org.apache.catalina.core.StandardEngine] [log] -> (INFO) [Starting Servlet engine: [Apache Tomcat/9.0.65]] 
+[2023-06-27 17:00:43,942] - [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [log] -> (INFO) [Initializing Spring embedded WebApplicationContext] 
+[2023-06-27 17:00:43,943] - [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [prepareWebApplicationContext] -> (INFO) [Root WebApplicationContext: initialization completed in 3872 ms] 
+[2023-06-27 17:00:43,997] - [org.camunda.bpm.spring.boot.starter.rest.CamundaJerseyResourceConfig] [registerCamundaRestResources] -> (INFO) [Configuring camunda rest api.] 
+[2023-06-27 17:00:44,053] - [org.camunda.bpm.spring.boot.starter.rest.CamundaJerseyResourceConfig] [registerCamundaRestResources] -> (INFO) [Finished configuring camunda rest api.] 
+[2023-06-27 17:00:44,784] - [org.hibernate.jpa.internal.util.LogHelper] [logPersistenceUnitInformation] -> (INFO) [HHH000204: Processing PersistenceUnitInfo [name: default]] 
+[2023-06-27 17:00:44,940] - [org.hibernate.Version] [logVersion] -> (INFO) [HHH000412: Hibernate ORM core version 5.6.11.Final] 
+[2023-06-27 17:00:45,341] - [org.hibernate.annotations.common.Version] [<clinit>] -> (INFO) [HCANN000001: Hibernate Commons Annotations {5.1.2.Final}] 
+[2023-06-27 17:00:45,613] - [com.zaxxer.hikari.HikariDataSource] [getConnection] -> (INFO) [HikariPool-1 - Starting...] 
+[2023-06-27 17:00:46,522] - [com.zaxxer.hikari.HikariDataSource] [getConnection] -> (INFO) [HikariPool-1 - Start completed.] 
+[2023-06-27 17:00:46,575] - [org.hibernate.dialect.Dialect] [<init>] -> (INFO) [HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect] 
+[2023-06-27 17:00:48,515] - [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [initiateService] -> (INFO) [HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]] 
+[2023-06-27 17:00:48,534] - [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [buildNativeEntityManagerFactory] -> (INFO) [Initialized JPA EntityManagerFactory for persistence unit 'default'] 
+[2023-06-27 17:00:48,731] - [org.camunda.bpm.spring.boot] [logInfo] -> (INFO) [STARTER-SB040 Setting up jobExecutor with corePoolSize=3, maxPoolSize:10] 
+[2023-06-27 17:00:48,964] - [org.camunda.bpm.engine.cfg] [logInfo] -> (INFO) [ENGINE-12003 Plugin 'CompositeProcessEnginePlugin[genericPropertiesConfiguration, camundaProcessEngineConfiguration, camundaDatasourceConfiguration, camundaJpaConfiguration, camundaJobConfiguration, camundaHistoryConfiguration, camundaMetricsConfiguration, camundaAuthorizationConfiguration, CreateAdminUserConfiguration[adminUser=AdminUserProperty[id=Test, firstName=Test, lastName=Test, email=Test@localhost, password=******]], failedJobConfiguration, disableDeploymentResourcePattern, eventPublisherPlugin, ApplicationContextClassloaderSwitchPlugin, SpringBootSpinProcessEnginePlugin]' activated on process engine 'default'] 
+[2023-06-27 17:00:48,976] - [org.camunda.bpm.spring.boot] [logInfo] -> (INFO) [STARTER-SB020 ProcessApplication enabled: autoDeployment via springConfiguration#deploymentResourcePattern is disabled] 
+[2023-06-27 17:00:48,979] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-001: Initialized Camunda Spring Boot Eventing Engine Plugin.] 
+[2023-06-27 17:00:48,980] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-003: Task events will be published as Spring Events.] 
+[2023-06-27 17:00:48,981] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-005: Execution events will be published as Spring Events.] 
+[2023-06-27 17:00:48,987] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-007: History events will be published as Spring events.] 
+[2023-06-27 17:00:49,001] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormatProvider[name = application/json]] 
+[2023-06-27 17:00:49,445] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormatProvider[name = application/xml]] 
+[2023-06-27 17:00:49,710] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormat[name = application/xml]] 
+[2023-06-27 17:00:49,711] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormat[name = application/json]] 
+[2023-06-27 17:00:50,473] - [org.camunda.bpm.dmn.feel.scala] [logInfo] -> (INFO) [FEEL/SCALA-01001 Spin value mapper detected] 
+[2023-06-27 17:00:50,693] - [org.camunda.feel.FeelEngine] [<init>] -> (INFO) [Engine created. [value-mapper: CompositeValueMapper(List(org.camunda.feel.impl.JavaValueMapper@14f9b002, org.camunda.spin.plugin.impl.feel.integration.SpinValueMapper@5fb4486)), function-provider: org.camunda.bpm.dmn.feel.impl.scala.function.CustomFunctionTransformer@29e44ed4, clock: SystemClock, configuration: Configuration(false)]] 
+[2023-06-27 17:01:07,634] - [org.camunda.bpm.connect] [logInfo] -> (INFO) [CNCT-01004 Discovered provider for connector id 'http-connector' and class 'org.camunda.connect.httpclient.impl.HttpConnectorImpl': 'org.camunda.connect.httpclient.impl.HttpConnectorProviderImpl'] 
+[2023-06-27 17:01:07,646] - [org.camunda.bpm.connect] [logInfo] -> (INFO) [CNCT-01004 Discovered provider for connector id 'soap-http-connector' and class 'org.camunda.connect.httpclient.soap.impl.SoapHttpConnectorImpl': 'org.camunda.connect.httpclient.soap.impl.SoapHttpConnectorProviderImpl'] 
+[2023-06-27 17:01:08,407] - [org.camunda.bpm.engine] [logInfo] -> (INFO) [ENGINE-00001 Process Engine default created.] 
+[2023-06-27 17:01:08,511] - [org.camunda.bpm.spring.boot] [logInfo] -> (INFO) [STARTER-SB011 Skip creating initial Admin User, user does exist: UserEntity[id=Test, revision=3, firstName=Test, lastName=Test, email=Test@localhost, password={SHA-512}sfb4lSg/21sQdiTxHeQ0gnxvuW2IIbT/b3w+ZFXi6d/4M3gBqHNLQZONFXd375ibtqquTYMhp29mDTJd+EecJw==, salt=B7vNYSEtAGJGbzTO9N4jDw==, lockExpirationTime=null, attempts=0]] 
+[2023-06-27 17:01:09,117] - [org.drools.compiler.kie.builder.impl.KieBuilderImpl] [packageNameForFile] -> (WARN) [File 'rules/tasks.drl' is in folder 'rules' but declares package 'com.foobat'. It is advised to have a correspondance between package and folder names.] 
+[2023-06-27 17:01:11,093] - [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [openEntityManagerInViewInterceptor] -> (WARN) [spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning] 
+[2023-06-27 17:01:11,914] - [org.camunda.bpm.spring.boot.starter.webapp.filter.LazyInitRegistration] [lazyInit] -> (INFO) [lazy initialized org.camunda.bpm.spring.boot.starter.webapp.filter.LazySecurityFilter@76d18fa5] 
+[2023-06-27 17:01:11,916] - [org.camunda.bpm.spring.boot.starter.webapp.filter.LazyInitRegistration] [lazyInit] -> (INFO) [lazy initialized org.camunda.bpm.spring.boot.starter.webapp.filter.LazyProcessEnginesFilter@43eaf9a3] 
+[2023-06-27 17:01:12,285] - [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [startServer] -> (INFO) [LiveReload server is running on port 35729] 
+[2023-06-27 17:01:12,547] - [org.apache.kafka.clients.consumer.ConsumerConfig] [logAll] -> (INFO) [ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-myGroup1-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = myGroup1
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+] 
+[2023-06-27 17:01:12,846] - [org.apache.kafka.clients.consumer.ConsumerConfig] [logUnused] -> (WARN) [The configuration 'spring.json.trusted.packages' was supplied but isn't a known config.] 
+[2023-06-27 17:01:12,847] - [org.apache.kafka.clients.consumer.ConsumerConfig] [logUnused] -> (WARN) [The configuration 'spring.deserializer.value.delegate.class' was supplied but isn't a known config.] 
+[2023-06-27 17:01:12,857] - [org.apache.kafka.common.utils.AppInfoParser] [<init>] -> (INFO) [Kafka version: 3.0.2] 
+[2023-06-27 17:01:12,857] - [org.apache.kafka.common.utils.AppInfoParser] [<init>] -> (INFO) [Kafka commitId: 25b1aea02e37da14] 
+[2023-06-27 17:01:12,860] - [org.apache.kafka.common.utils.AppInfoParser] [<init>] -> (INFO) [Kafka startTimeMs: 1687865472847] 
+[2023-06-27 17:01:12,876] - [org.apache.kafka.clients.consumer.KafkaConsumer] [subscribe] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Subscribed to topic(s): newTask] 
+[2023-06-27 17:01:12,913] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Starting ProtocolHandler ["http-nio-9002"]] 
+[2023-06-27 17:01:12,967] - [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [start] -> (INFO) [Tomcat started on port(s): 9002 (http) with context path ''] 
+[2023-06-27 17:01:13,064] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08024 Found processes.xml file at file:/D:/Tausif/Downloads/FreshSuperChargers-Aswini-Avula/FreshSuperChargers-Aswini-Avula/target/classes/META-INF/processes.xml] 
+[2023-06-27 17:01:13,281] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08023 Deployment summary for process archive 'trainingWorkflowApplication': 
+
+        userform.form
+        training-workflow.bpmn
+] 
+[2023-06-27 17:01:14,444] - [org.camunda.bpm.application] [logInfo] -> (INFO) [ENGINE-07021 ProcessApplication 'trainingWorkflowApplication' registered for DB deployments [ed4fab4a-127c-11ee-82db-809133675f5b]. Will execute process definitions 
+
+        Decision[version: 1, id: Decision:1:ed77578d-127c-11ee-82db-809133675f5b]
+Deployment does not provide any case definitions.] 
+[2023-06-27 17:01:14,456] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08050 Process application trainingWorkflowApplication successfully deployed] 
+[2023-06-27 17:01:14,467] - [com.hcl.elch.freshersuperchargers.trainingworkflow.TrainingWorkflowApplication] [logStarted] -> (INFO) [Started TrainingWorkflowApplication in 35.506 seconds (JVM running for 38.519)] 
+[2023-06-27 17:01:14,479] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14014 Starting up the JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor].] 
+[2023-06-27 17:01:14,495] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14018 JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor] starting to acquire jobs] 
+[2023-06-27 17:01:14,658] - [org.apache.kafka.clients.Metadata] [updateLatestMetadata] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Resetting the last seen epoch of partition newTask-0 to 0 since the associated topicId changed from null to t0SiJO8IS42wB-IdMfGKFg] 
+[2023-06-27 17:01:14,666] - [org.apache.kafka.clients.Metadata] [update] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Cluster ID: 49wSc7t9TfCsKn1qSooxbQ] 
+[2023-06-27 17:01:14,676] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [onSuccess] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Discovered group coordinator asusvivobook:9092 (id: 2147483647 rack: null)] 
+[2023-06-27 17:01:14,683] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [sendJoinGroupRequest] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] (Re-)joining group] 
+[2023-06-27 17:01:15,007] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [requestRejoin] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Request joining group due to: need to re-join with the given member-id] 
+[2023-06-27 17:01:15,007] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [sendJoinGroupRequest] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] (Re-)joining group] 
+[2023-06-27 17:01:15,082] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [handle] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Successfully joined group with generation Generation{generationId=28, memberId='consumer-myGroup1-1-8156dd09-b40e-4603-83a9-a054f1bf86df', protocol='range'}] 
+[2023-06-27 17:01:15,092] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [performAssignment] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Finished assignment for group at generation 28: {consumer-myGroup1-1-8156dd09-b40e-4603-83a9-a054f1bf86df=Assignment(partitions=[newTask-0])}] 
+[2023-06-27 17:01:15,286] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [handle] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Successfully synced group in generation Generation{generationId=28, memberId='consumer-myGroup1-1-8156dd09-b40e-4603-83a9-a054f1bf86df', protocol='range'}] 
+[2023-06-27 17:01:15,287] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [invokeOnAssignment] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Notifying assignor about the new Assignment(partitions=[newTask-0])] 
+[2023-06-27 17:01:15,294] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [invokePartitionsAssigned] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Adding newly assigned partitions: newTask-0] 
+[2023-06-27 17:01:15,352] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [refreshCommittedOffsetsIfNeeded] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Setting offset for partition newTask-0 to the committed offset FetchPosition{offset=14, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[asusvivobook:9092 (id: 0 rack: null)], epoch=0}}] 
+[2023-06-27 17:01:15,354] - [org.springframework.kafka.listener.KafkaMessageListenerContainer] [info] -> (INFO) [myGroup1: partitions assigned: [newTask-0]] 
+[2023-06-27 17:02:29,961] - [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [log] -> (INFO) [Initializing Spring DispatcherServlet 'dispatcherServlet'] 
+[2023-06-27 17:02:29,965] - [org.springframework.web.servlet.DispatcherServlet] [initServletBean] -> (INFO) [Initializing Servlet 'dispatcherServlet'] 
+[2023-06-27 17:02:29,979] - [org.springframework.web.servlet.DispatcherServlet] [initServletBean] -> (INFO) [Completed initialization in 12 ms] 
+[2023-06-27 18:18:39,532] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [markCoordinatorUnknown] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Group coordinator asusvivobook:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response.isDisconnected: false. Rediscovery will be attempted.] 
+[2023-06-27 18:18:43,637] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [onSuccess] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Discovered group coordinator asusvivobook:9092 (id: 2147483647 rack: null)] 
+[2023-06-27 18:18:43,646] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [run] -> (WARN) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] consumer poll timeout has expired. This means the time between subsequent calls to poll() was longer than the configured max.poll.interval.ms, which typically implies that the poll loop is spending too much time processing messages. You can address this either by increasing max.poll.interval.ms or by reducing the maximum size of batches returned in poll() with max.poll.records.] 
+[2023-06-27 18:18:43,656] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [maybeLeaveGroup] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Member consumer-myGroup1-1-8156dd09-b40e-4603-83a9-a054f1bf86df sending LeaveGroup request to coordinator asusvivobook:9092 (id: 2147483647 rack: null) due to consumer poll timeout has expired.] 
+[2023-06-27 18:18:43,727] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [onSuccess] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Discovered group coordinator asusvivobook:9092 (id: 2147483647 rack: null)] 
+[2023-06-27 18:18:43,767] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [resetStateAndGeneration] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Resetting generation due to: consumer pro-actively leaving the group] 
+[2023-06-27 18:18:43,842] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [requestRejoin] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Request joining group due to: consumer pro-actively leaving the group] 
+[2023-06-27 18:18:39,540] - [org.apache.kafka.clients.FetchSessionHandler] [handleError] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Error sending fetch request (sessionId=1233148733, epoch=4689) to node 0:] 
+org.apache.kafka.common.errors.DisconnectException: null
+[2023-06-27 18:18:45,236] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [onJoinPrepare] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Giving away all assigned partitions as lost since generation has been reset,indicating that consumer is no longer part of the group] 
+[2023-06-27 18:18:45,243] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [invokePartitionsLost] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Lost previously assigned partitions newTask-0] 
+[2023-06-27 18:18:45,356] - [org.springframework.kafka.listener.KafkaMessageListenerContainer] [info] -> (INFO) [myGroup1: partitions lost: [newTask-0]] 
+[2023-06-27 18:18:45,370] - [org.springframework.kafka.listener.KafkaMessageListenerContainer] [info] -> (INFO) [myGroup1: partitions revoked: [newTask-0]] 
+[2023-06-27 18:18:45,447] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [sendJoinGroupRequest] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] (Re-)joining group] 
+[2023-06-27 18:18:45,507] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [onSuccess] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Discovered group coordinator asusvivobook:9092 (id: 2147483647 rack: null)] 
+[2023-06-27 18:18:45,739] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [handle] -> (ERROR) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] LeaveGroup request with Generation{generationId=28, memberId='consumer-myGroup1-1-8156dd09-b40e-4603-83a9-a054f1bf86df', protocol='range'} failed with error: The coordinator is not aware of this member.] 
+[2023-06-27 18:18:45,852] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [requestRejoin] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Request joining group due to: need to re-join with the given member-id] 
+[2023-06-27 18:18:45,854] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [sendJoinGroupRequest] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] (Re-)joining group] 
+[2023-06-27 18:18:46,072] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [handle] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Successfully joined group with generation Generation{generationId=30, memberId='consumer-myGroup1-1-732af677-5608-4027-a661-10ff71ddd296', protocol='range'}] 
+[2023-06-27 18:18:46,093] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [performAssignment] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Finished assignment for group at generation 30: {consumer-myGroup1-1-732af677-5608-4027-a661-10ff71ddd296=Assignment(partitions=[newTask-0])}] 
+[2023-06-27 18:18:46,219] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [handle] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Successfully synced group in generation Generation{generationId=30, memberId='consumer-myGroup1-1-732af677-5608-4027-a661-10ff71ddd296', protocol='range'}] 
+[2023-06-27 18:18:46,229] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [invokeOnAssignment] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Notifying assignor about the new Assignment(partitions=[newTask-0])] 
+[2023-06-27 18:18:46,234] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [invokePartitionsAssigned] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Adding newly assigned partitions: newTask-0] 
+[2023-06-27 18:18:46,286] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [refreshCommittedOffsetsIfNeeded] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Setting offset for partition newTask-0 to the committed offset FetchPosition{offset=14, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[asusvivobook:9092 (id: 0 rack: null)], epoch=0}}] 
+[2023-06-27 18:18:46,289] - [org.springframework.kafka.listener.KafkaMessageListenerContainer] [info] -> (INFO) [myGroup1: partitions assigned: [newTask-0]] 
+[2023-06-27 18:18:56,696] - [com.zaxxer.hikari.pool.HikariPool] [run] -> (WARN) [HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=37m39s809ms289µs300ns).] 
+[2023-06-27 18:19:03,289] - [org.apache.kafka.clients.FetchSessionHandler] [handleError] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Error sending fetch request (sessionId=1048707116, epoch=30) to node 0:] 
+org.apache.kafka.common.errors.DisconnectException: null
+[2023-06-27 18:19:03,291] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [markCoordinatorUnknown] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Group coordinator asusvivobook:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: coordinator unavailable.isDisconnected: true. Rediscovery will be attempted.] 
+[2023-06-27 18:19:03,666] - [org.apache.kafka.clients.NetworkClient] [processDisconnection] -> (WARN) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Connection to node 0 (asusvivobook/127.0.0.1:9092) could not be established. Broker may not be available.] 
+[2023-06-27 18:19:03,762] - [org.apache.kafka.clients.NetworkClient] [processDisconnection] -> (WARN) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Connection to node 0 (asusvivobook/127.0.0.1:9092) could not be established. Broker may not be available.] 
+[2023-06-27 18:19:03,966] - [org.apache.kafka.clients.NetworkClient] [processDisconnection] -> (WARN) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Connection to node 0 (asusvivobook/127.0.0.1:9092) could not be established. Broker may not be available.] 
+[2023-06-27 18:19:04,423] - [org.apache.kafka.clients.NetworkClient] [processDisconnection] -> (WARN) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Connection to node 0 (asusvivobook/127.0.0.1:9092) could not be established. Broker may not be available.] 
+[2023-06-27 18:19:05,359] - [org.apache.kafka.clients.NetworkClient] [processDisconnection] -> (WARN) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Connection to node 0 (asusvivobook/127.0.0.1:9092) could not be established. Broker may not be available.] 
+[2023-06-27 18:19:06,448] - [org.apache.kafka.clients.NetworkClient] [processDisconnection] -> (WARN) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Connection to node 0 (asusvivobook/127.0.0.1:9092) could not be established. Broker may not be available.] 
+[2023-06-27 18:19:07,360] - [org.apache.kafka.clients.NetworkClient] [processDisconnection] -> (WARN) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Connection to node 0 (asusvivobook/127.0.0.1:9092) could not be established. Broker may not be available.] 
+[2023-06-27 18:19:08,363] - [org.apache.kafka.clients.NetworkClient] [processDisconnection] -> (WARN) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Connection to node 0 (asusvivobook/127.0.0.1:9092) could not be established. Broker may not be available.] 
+[2023-06-27 18:19:09,199] - [org.apache.kafka.clients.NetworkClient] [processDisconnection] -> (WARN) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Connection to node 0 (asusvivobook/127.0.0.1:9092) could not be established. Broker may not be available.] 
+[2023-06-27 18:19:12,492] - [org.apache.kafka.clients.NetworkClient] [processDisconnection] -> (WARN) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Connection to node 0 (asusvivobook/192.168.110.101:9092) could not be established. Broker may not be available.] 
+[2023-06-27 18:19:15,705] - [org.apache.kafka.clients.NetworkClient] [processDisconnection] -> (WARN) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Connection to node 0 (asusvivobook/192.168.110.101:9092) could not be established. Broker may not be available.] 
+[2023-06-27 18:19:15,712] - [org.apache.kafka.clients.FetchSessionHandler] [handleError] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Error sending fetch request (sessionId=1048707116, epoch=INITIAL) to node 0:] 
+org.apache.kafka.common.errors.DisconnectException: null
+[2023-06-27 18:19:18,627] - [org.apache.kafka.clients.NetworkClient] [processDisconnection] -> (WARN) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Connection to node 0 (asusvivobook/192.168.110.101:9092) could not be established. Broker may not be available.] 
+[2023-06-27 18:19:21,667] - [org.apache.kafka.clients.NetworkClient] [processDisconnection] -> (WARN) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Connection to node 0 (asusvivobook/192.168.110.101:9092) could not be established. Broker may not be available.] 
+[2023-06-27 18:19:21,671] - [org.apache.kafka.clients.FetchSessionHandler] [handleError] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Error sending fetch request (sessionId=1048707116, epoch=INITIAL) to node 0:] 
+org.apache.kafka.common.errors.DisconnectException: null
+[2023-06-27 18:19:24,792] - [org.apache.kafka.clients.NetworkClient] [processDisconnection] -> (WARN) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Connection to node 0 (asusvivobook/192.168.110.101:9092) could not be established. Broker may not be available.] 
+[2023-06-27 18:19:28,012] - [org.apache.kafka.clients.NetworkClient] [processDisconnection] -> (WARN) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Connection to node 0 (asusvivobook/192.168.110.101:9092) could not be established. Broker may not be available.] 
+[2023-06-27 18:19:31,181] - [org.apache.kafka.clients.NetworkClient] [processDisconnection] -> (WARN) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Connection to node 0 (asusvivobook/192.168.110.101:9092) could not be established. Broker may not be available.] 
+[2023-06-27 18:19:31,183] - [org.apache.kafka.clients.FetchSessionHandler] [handleError] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Error sending fetch request (sessionId=1048707116, epoch=INITIAL) to node 0:] 
+org.apache.kafka.common.errors.DisconnectException: null
+[2023-06-27 18:19:34,125] - [org.apache.kafka.clients.NetworkClient] [processDisconnection] -> (WARN) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Connection to node 0 (asusvivobook/192.168.110.101:9092) could not be established. Broker may not be available.] 
+[2023-06-27 18:19:37,340] - [org.apache.kafka.clients.NetworkClient] [processDisconnection] -> (WARN) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Connection to node 0 (asusvivobook/192.168.110.101:9092) could not be established. Broker may not be available.] 
+[2023-06-27 18:19:40,433] - [org.apache.kafka.clients.NetworkClient] [processDisconnection] -> (WARN) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Connection to node 0 (asusvivobook/192.168.110.101:9092) could not be established. Broker may not be available.] 
+[2023-06-27 18:19:40,436] - [org.apache.kafka.clients.FetchSessionHandler] [handleError] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Error sending fetch request (sessionId=1048707116, epoch=INITIAL) to node 0:] 
+org.apache.kafka.common.errors.DisconnectException: null
+[2023-06-27 18:19:41,830] - [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [shutdown] -> (INFO) [Application shutdown requested.] 
+[2023-06-27 18:19:43,495] - [org.apache.kafka.clients.NetworkClient] [processDisconnection] -> (WARN) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Connection to node 0 (asusvivobook/192.168.110.101:9092) could not be established. Broker may not be available.] 
+[2023-06-27 18:19:43,879] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08051 Process application trainingWorkflowApplication undeployed] 
+[2023-06-27 18:19:44,471] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Pausing ProtocolHandler ["http-nio-9002"]] 
+[2023-06-27 18:19:44,485] - [org.apache.catalina.core.StandardService] [log] -> (INFO) [Stopping service [Tomcat]] 
+[2023-06-27 18:19:45,040] - [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [log] -> (INFO) [Destroying Spring FrameworkServlet 'dispatcherServlet'] 
+[2023-06-27 18:19:45,224] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Stopping ProtocolHandler ["http-nio-9002"]] 
+[2023-06-27 18:19:45,276] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Destroying ProtocolHandler ["http-nio-9002"]] 
+[2023-06-27 18:19:45,402] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [invokePartitionsRevoked] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Revoke previously assigned partitions newTask-0] 
+[2023-06-27 18:19:45,408] - [org.springframework.kafka.listener.KafkaMessageListenerContainer] [info] -> (INFO) [myGroup1: partitions revoked: [newTask-0]] 
+[2023-06-27 18:19:45,414] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [resetStateAndGeneration] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Resetting generation due to: consumer pro-actively leaving the group] 
+[2023-06-27 18:19:45,414] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [requestRejoin] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Request joining group due to: consumer pro-actively leaving the group] 
+[2023-06-27 18:19:45,416] - [org.apache.kafka.clients.consumer.KafkaConsumer] [unsubscribe] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Unsubscribed all topics or patterns and assigned partitions] 
+[2023-06-27 18:19:45,424] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [resetStateAndGeneration] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Resetting generation due to: consumer pro-actively leaving the group] 
+[2023-06-27 18:19:45,424] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [requestRejoin] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Request joining group due to: consumer pro-actively leaving the group] 
+[2023-06-27 18:19:45,444] - [org.apache.kafka.common.metrics.Metrics] [close] -> (INFO) [Metrics scheduler closed] 
+[2023-06-27 18:19:45,446] - [org.apache.kafka.common.metrics.Metrics] [close] -> (INFO) [Closing reporter org.apache.kafka.common.metrics.JmxReporter] 
+[2023-06-27 18:19:45,448] - [org.apache.kafka.common.metrics.Metrics] [close] -> (INFO) [Metrics reporters closed] 
+[2023-06-27 18:19:45,503] - [org.apache.kafka.common.utils.AppInfoParser] [unregisterAppInfo] -> (INFO) [App info kafka.consumer for consumer-myGroup1-1 unregistered] 
+[2023-06-27 18:19:45,514] - [org.springframework.kafka.listener.KafkaMessageListenerContainer] [info] -> (INFO) [myGroup1: Consumer stopped] 
+[2023-06-27 18:19:45,871] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14015 Shutting down the JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor]] 
+[2023-06-27 18:19:45,873] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14020 JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor] stopped job acquisition] 
+[2023-06-27 18:19:45,992] - [org.camunda.bpm.engine] [logInfo] -> (INFO) [ENGINE-00007 Process Engine default closed] 
+[2023-06-27 18:19:46,002] - [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [destroy] -> (INFO) [Closing JPA EntityManagerFactory for persistence unit 'default'] 
+[2023-06-27 18:19:46,177] - [com.zaxxer.hikari.HikariDataSource] [close] -> (INFO) [HikariPool-1 - Shutdown initiated...] 
+[2023-06-27 18:19:46,312] - [com.zaxxer.hikari.HikariDataSource] [close] -> (INFO) [HikariPool-1 - Shutdown completed.] 
+[2023-06-27 19:12:32,532] - [org.hibernate.validator.internal.util.Version] [<clinit>] -> (INFO) [HV000001: Hibernate Validator 6.2.5.Final] 
+[2023-06-27 19:12:32,619] - [com.hcl.elch.freshersuperchargers.trainingworkflow.TrainingWorkflowApplication] [logStarting] -> (INFO) [Starting TrainingWorkflowApplication using Java 17.0.6 on asusvivobook with PID 13704 (D:\Tausif\Downloads\FreshSuperChargers-Aswini-Avula\FreshSuperChargers-Aswini-Avula\target\classes started by Tausif in D:\Tausif\Downloads\FreshSuperChargers-Aswini-Avula\FreshSuperChargers-Aswini-Avula)] 
+[2023-06-27 19:12:32,632] - [com.hcl.elch.freshersuperchargers.trainingworkflow.TrainingWorkflowApplication] [logStartupProfileInfo] -> (INFO) [No active profile set, falling back to 1 default profile: "default"] 
+[2023-06-27 19:12:32,780] - [org.springframework.boot.devtools.restart.ChangeableUrls] [logTo] -> (INFO) [The Class-Path manifest attribute in C:\Users\Tausif\.m2\repository\org\glassfish\hk2\hk2\2.6.1\hk2-2.6.1.jar referenced one or more files that do not exist: file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-utils.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/jakarta.annotation-api.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/jakarta.inject.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-api.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/aopalliance-repackaged.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-core.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-locator.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/javassist.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-runlevel.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/class-model.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-analysis.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-commons.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-tree.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-util.jar] 
+[2023-06-27 19:12:32,782] - [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [logTo] -> (INFO) [Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable] 
+[2023-06-27 19:12:32,783] - [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [logTo] -> (INFO) [For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'] 
+[2023-06-27 19:12:35,097] - [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [registerRepositoriesIn] -> (INFO) [Bootstrapping Spring Data JPA repositories in DEFAULT mode.] 
+[2023-06-27 19:12:35,237] - [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [registerRepositoriesIn] -> (INFO) [Finished Spring Data repository scanning in 123 ms. Found 7 JPA repository interfaces.] 
+[2023-06-27 19:12:36,641] - [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [initialize] -> (INFO) [Tomcat initialized with port(s): 9002 (http)] 
+[2023-06-27 19:12:36,660] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Initializing ProtocolHandler ["http-nio-9002"]] 
+[2023-06-27 19:12:36,661] - [org.apache.catalina.core.StandardService] [log] -> (INFO) [Starting service [Tomcat]] 
+[2023-06-27 19:12:36,663] - [org.apache.catalina.core.StandardEngine] [log] -> (INFO) [Starting Servlet engine: [Apache Tomcat/9.0.65]] 
+[2023-06-27 19:12:36,896] - [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [log] -> (INFO) [Initializing Spring embedded WebApplicationContext] 
+[2023-06-27 19:12:36,897] - [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [prepareWebApplicationContext] -> (INFO) [Root WebApplicationContext: initialization completed in 4112 ms] 
+[2023-06-27 19:12:36,946] - [org.camunda.bpm.spring.boot.starter.rest.CamundaJerseyResourceConfig] [registerCamundaRestResources] -> (INFO) [Configuring camunda rest api.] 
+[2023-06-27 19:12:36,988] - [org.camunda.bpm.spring.boot.starter.rest.CamundaJerseyResourceConfig] [registerCamundaRestResources] -> (INFO) [Finished configuring camunda rest api.] 
+[2023-06-27 19:12:37,504] - [org.hibernate.jpa.internal.util.LogHelper] [logPersistenceUnitInformation] -> (INFO) [HHH000204: Processing PersistenceUnitInfo [name: default]] 
+[2023-06-27 19:12:37,608] - [org.hibernate.Version] [logVersion] -> (INFO) [HHH000412: Hibernate ORM core version 5.6.11.Final] 
+[2023-06-27 19:12:37,911] - [org.hibernate.annotations.common.Version] [<clinit>] -> (INFO) [HCANN000001: Hibernate Commons Annotations {5.1.2.Final}] 
+[2023-06-27 19:12:38,101] - [com.zaxxer.hikari.HikariDataSource] [getConnection] -> (INFO) [HikariPool-1 - Starting...] 
+[2023-06-27 19:12:38,893] - [com.zaxxer.hikari.HikariDataSource] [getConnection] -> (INFO) [HikariPool-1 - Start completed.] 
+[2023-06-27 19:12:38,932] - [org.hibernate.dialect.Dialect] [<init>] -> (INFO) [HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect] 
+[2023-06-27 19:12:40,625] - [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [initiateService] -> (INFO) [HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]] 
+[2023-06-27 19:12:40,641] - [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [buildNativeEntityManagerFactory] -> (INFO) [Initialized JPA EntityManagerFactory for persistence unit 'default'] 
+[2023-06-27 19:12:40,771] - [org.camunda.bpm.spring.boot] [logInfo] -> (INFO) [STARTER-SB040 Setting up jobExecutor with corePoolSize=3, maxPoolSize:10] 
+[2023-06-27 19:12:40,940] - [org.camunda.bpm.engine.cfg] [logInfo] -> (INFO) [ENGINE-12003 Plugin 'CompositeProcessEnginePlugin[genericPropertiesConfiguration, camundaProcessEngineConfiguration, camundaDatasourceConfiguration, camundaJpaConfiguration, camundaJobConfiguration, camundaHistoryConfiguration, camundaMetricsConfiguration, camundaAuthorizationConfiguration, CreateAdminUserConfiguration[adminUser=AdminUserProperty[id=Test, firstName=Test, lastName=Test, email=Test@localhost, password=******]], failedJobConfiguration, disableDeploymentResourcePattern, eventPublisherPlugin, ApplicationContextClassloaderSwitchPlugin, SpringBootSpinProcessEnginePlugin]' activated on process engine 'default'] 
+[2023-06-27 19:12:40,949] - [org.camunda.bpm.spring.boot] [logInfo] -> (INFO) [STARTER-SB020 ProcessApplication enabled: autoDeployment via springConfiguration#deploymentResourcePattern is disabled] 
+[2023-06-27 19:12:40,952] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-001: Initialized Camunda Spring Boot Eventing Engine Plugin.] 
+[2023-06-27 19:12:40,952] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-003: Task events will be published as Spring Events.] 
+[2023-06-27 19:12:40,953] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-005: Execution events will be published as Spring Events.] 
+[2023-06-27 19:12:40,957] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-007: History events will be published as Spring events.] 
+[2023-06-27 19:12:40,967] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormatProvider[name = application/json]] 
+[2023-06-27 19:12:41,281] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormatProvider[name = application/xml]] 
+[2023-06-27 19:12:41,419] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormat[name = application/xml]] 
+[2023-06-27 19:12:41,419] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormat[name = application/json]] 
+[2023-06-27 19:12:41,845] - [org.camunda.bpm.dmn.feel.scala] [logInfo] -> (INFO) [FEEL/SCALA-01001 Spin value mapper detected] 
+[2023-06-27 19:12:41,972] - [org.camunda.feel.FeelEngine] [<init>] -> (INFO) [Engine created. [value-mapper: CompositeValueMapper(List(org.camunda.feel.impl.JavaValueMapper@7eee7d39, org.camunda.spin.plugin.impl.feel.integration.SpinValueMapper@5e2f0065)), function-provider: org.camunda.bpm.dmn.feel.impl.scala.function.CustomFunctionTransformer@5d6b7214, clock: SystemClock, configuration: Configuration(false)]] 
+[2023-06-27 19:12:48,842] - [org.camunda.bpm.connect] [logInfo] -> (INFO) [CNCT-01004 Discovered provider for connector id 'http-connector' and class 'org.camunda.connect.httpclient.impl.HttpConnectorImpl': 'org.camunda.connect.httpclient.impl.HttpConnectorProviderImpl'] 
+[2023-06-27 19:12:48,848] - [org.camunda.bpm.connect] [logInfo] -> (INFO) [CNCT-01004 Discovered provider for connector id 'soap-http-connector' and class 'org.camunda.connect.httpclient.soap.impl.SoapHttpConnectorImpl': 'org.camunda.connect.httpclient.soap.impl.SoapHttpConnectorProviderImpl'] 
+[2023-06-27 19:12:49,270] - [org.camunda.bpm.engine] [logInfo] -> (INFO) [ENGINE-00001 Process Engine default created.] 
+[2023-06-27 19:12:49,354] - [org.camunda.bpm.spring.boot] [logInfo] -> (INFO) [STARTER-SB011 Skip creating initial Admin User, user does exist: UserEntity[id=Test, revision=3, firstName=Test, lastName=Test, email=Test@localhost, password={SHA-512}sfb4lSg/21sQdiTxHeQ0gnxvuW2IIbT/b3w+ZFXi6d/4M3gBqHNLQZONFXd375ibtqquTYMhp29mDTJd+EecJw==, salt=B7vNYSEtAGJGbzTO9N4jDw==, lockExpirationTime=null, attempts=0]] 
+[2023-06-27 19:12:49,753] - [org.drools.compiler.kie.builder.impl.KieBuilderImpl] [packageNameForFile] -> (WARN) [File 'rules/tasks.drl' is in folder 'rules' but declares package 'com.foobat'. It is advised to have a correspondance between package and folder names.] 
+[2023-06-27 19:12:51,358] - [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [openEntityManagerInViewInterceptor] -> (WARN) [spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning] 
+[2023-06-27 19:12:51,885] - [org.camunda.bpm.spring.boot.starter.webapp.filter.LazyInitRegistration] [lazyInit] -> (INFO) [lazy initialized org.camunda.bpm.spring.boot.starter.webapp.filter.LazySecurityFilter@364716ac] 
+[2023-06-27 19:12:51,887] - [org.camunda.bpm.spring.boot.starter.webapp.filter.LazyInitRegistration] [lazyInit] -> (INFO) [lazy initialized org.camunda.bpm.spring.boot.starter.webapp.filter.LazyProcessEnginesFilter@6d65eb39] 
+[2023-06-27 19:12:52,158] - [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [startServer] -> (INFO) [LiveReload server is running on port 35729] 
+[2023-06-27 19:12:52,378] - [org.apache.kafka.clients.consumer.ConsumerConfig] [logAll] -> (INFO) [ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-myGroup1-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = myGroup1
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+] 
+[2023-06-27 19:12:52,595] - [org.apache.kafka.clients.consumer.ConsumerConfig] [logUnused] -> (WARN) [The configuration 'spring.json.trusted.packages' was supplied but isn't a known config.] 
+[2023-06-27 19:12:52,595] - [org.apache.kafka.clients.consumer.ConsumerConfig] [logUnused] -> (WARN) [The configuration 'spring.deserializer.value.delegate.class' was supplied but isn't a known config.] 
+[2023-06-27 19:12:52,598] - [org.apache.kafka.common.utils.AppInfoParser] [<init>] -> (INFO) [Kafka version: 3.0.2] 
+[2023-06-27 19:12:52,598] - [org.apache.kafka.common.utils.AppInfoParser] [<init>] -> (INFO) [Kafka commitId: 25b1aea02e37da14] 
+[2023-06-27 19:12:52,599] - [org.apache.kafka.common.utils.AppInfoParser] [<init>] -> (INFO) [Kafka startTimeMs: 1687873372595] 
+[2023-06-27 19:12:52,608] - [org.apache.kafka.clients.consumer.KafkaConsumer] [subscribe] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Subscribed to topic(s): newTask] 
+[2023-06-27 19:12:52,624] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Starting ProtocolHandler ["http-nio-9002"]] 
+[2023-06-27 19:12:52,684] - [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [start] -> (INFO) [Tomcat started on port(s): 9002 (http) with context path ''] 
+[2023-06-27 19:12:52,735] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08024 Found processes.xml file at file:/D:/Tausif/Downloads/FreshSuperChargers-Aswini-Avula/FreshSuperChargers-Aswini-Avula/target/classes/META-INF/processes.xml] 
+[2023-06-27 19:12:52,852] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08023 Deployment summary for process archive 'trainingWorkflowApplication': 
+
+        userform.form
+        training-workflow.bpmn
+] 
+[2023-06-27 19:12:53,354] - [org.apache.kafka.clients.NetworkClient] [processDisconnection] -> (WARN) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.] 
+[2023-06-27 19:12:53,354] - [org.apache.kafka.clients.NetworkClient] [handleServerDisconnect] -> (WARN) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected] 
+[2023-06-27 19:12:53,452] - [org.apache.kafka.clients.NetworkClient] [processDisconnection] -> (WARN) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.] 
+[2023-06-27 19:12:53,453] - [org.apache.kafka.clients.NetworkClient] [handleServerDisconnect] -> (WARN) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected] 
+[2023-06-27 19:12:53,556] - [org.apache.kafka.clients.NetworkClient] [processDisconnection] -> (WARN) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.] 
+[2023-06-27 19:12:53,556] - [org.apache.kafka.clients.NetworkClient] [handleServerDisconnect] -> (WARN) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected] 
+[2023-06-27 19:12:53,613] - [org.camunda.bpm.application] [logInfo] -> (INFO) [ENGINE-07021 ProcessApplication 'trainingWorkflowApplication' registered for DB deployments [ed4fab4a-127c-11ee-82db-809133675f5b]. Will execute process definitions 
+
+        Decision[version: 1, id: Decision:1:ed77578d-127c-11ee-82db-809133675f5b]
+Deployment does not provide any case definitions.] 
+[2023-06-27 19:12:53,625] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08050 Process application trainingWorkflowApplication successfully deployed] 
+[2023-06-27 19:12:53,632] - [com.hcl.elch.freshersuperchargers.trainingworkflow.TrainingWorkflowApplication] [logStarted] -> (INFO) [Started TrainingWorkflowApplication in 21.984 seconds (JVM running for 24.54)] 
+[2023-06-27 19:12:53,638] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14014 Starting up the JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor].] 
+[2023-06-27 19:12:53,643] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14018 JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor] starting to acquire jobs] 
+[2023-06-27 19:12:53,822] - [org.apache.kafka.clients.NetworkClient] [processDisconnection] -> (WARN) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.] 
+[2023-06-27 19:12:53,823] - [org.apache.kafka.clients.NetworkClient] [handleServerDisconnect] -> (WARN) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected] 
+[2023-06-27 19:12:54,277] - [org.apache.kafka.clients.NetworkClient] [processDisconnection] -> (WARN) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.] 
+[2023-06-27 19:12:54,278] - [org.apache.kafka.clients.NetworkClient] [handleServerDisconnect] -> (WARN) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected] 
+[2023-06-27 19:12:55,084] - [org.apache.kafka.clients.NetworkClient] [processDisconnection] -> (WARN) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.] 
+[2023-06-27 19:12:55,085] - [org.apache.kafka.clients.NetworkClient] [handleServerDisconnect] -> (WARN) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected] 
+[2023-06-27 19:12:56,298] - [org.apache.kafka.clients.NetworkClient] [processDisconnection] -> (WARN) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.] 
+[2023-06-27 19:12:56,298] - [org.apache.kafka.clients.NetworkClient] [handleServerDisconnect] -> (WARN) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected] 
+[2023-06-27 19:12:57,259] - [org.apache.kafka.clients.NetworkClient] [processDisconnection] -> (WARN) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.] 
+[2023-06-27 19:12:57,259] - [org.apache.kafka.clients.NetworkClient] [handleServerDisconnect] -> (WARN) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected] 
+[2023-06-27 19:12:58,343] - [org.apache.kafka.clients.NetworkClient] [processDisconnection] -> (WARN) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.] 
+[2023-06-27 19:12:58,343] - [org.apache.kafka.clients.NetworkClient] [handleServerDisconnect] -> (WARN) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected] 
+[2023-06-27 19:12:59,561] - [org.apache.kafka.clients.NetworkClient] [processDisconnection] -> (WARN) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.] 
+[2023-06-27 19:12:59,561] - [org.apache.kafka.clients.NetworkClient] [handleServerDisconnect] -> (WARN) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected] 
+[2023-06-27 19:13:00,426] - [org.apache.kafka.clients.NetworkClient] [processDisconnection] -> (WARN) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.] 
+[2023-06-27 19:13:00,426] - [org.apache.kafka.clients.NetworkClient] [handleServerDisconnect] -> (WARN) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected] 
+[2023-06-27 19:13:01,287] - [org.apache.kafka.clients.NetworkClient] [processDisconnection] -> (WARN) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.] 
+[2023-06-27 19:13:01,288] - [org.apache.kafka.clients.NetworkClient] [handleServerDisconnect] -> (WARN) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected] 
+[2023-06-27 19:13:02,148] - [org.apache.kafka.clients.NetworkClient] [processDisconnection] -> (WARN) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.] 
+[2023-06-27 19:13:02,148] - [org.apache.kafka.clients.NetworkClient] [handleServerDisconnect] -> (WARN) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected] 
+[2023-06-27 19:13:03,347] - [org.apache.kafka.clients.NetworkClient] [processDisconnection] -> (WARN) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.] 
+[2023-06-27 19:13:03,348] - [org.apache.kafka.clients.NetworkClient] [handleServerDisconnect] -> (WARN) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected] 
+[2023-06-27 19:13:04,460] - [org.apache.kafka.clients.NetworkClient] [processDisconnection] -> (WARN) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.] 
+[2023-06-27 19:13:04,460] - [org.apache.kafka.clients.NetworkClient] [handleServerDisconnect] -> (WARN) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected] 
+[2023-06-27 19:13:04,603] - [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [shutdown] -> (INFO) [Application shutdown requested.] 
+[2023-06-27 19:13:04,895] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08051 Process application trainingWorkflowApplication undeployed] 
+[2023-06-27 19:13:04,957] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Pausing ProtocolHandler ["http-nio-9002"]] 
+[2023-06-27 19:13:04,960] - [org.apache.catalina.core.StandardService] [log] -> (INFO) [Stopping service [Tomcat]] 
+[2023-06-27 19:13:04,989] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Stopping ProtocolHandler ["http-nio-9002"]] 
+[2023-06-27 19:13:04,995] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Destroying ProtocolHandler ["http-nio-9002"]] 
+[2023-06-27 19:13:05,001] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [resetStateAndGeneration] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Resetting generation due to: consumer pro-actively leaving the group] 
+[2023-06-27 19:13:05,002] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [requestRejoin] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Request joining group due to: consumer pro-actively leaving the group] 
+[2023-06-27 19:13:05,002] - [org.apache.kafka.clients.consumer.KafkaConsumer] [unsubscribe] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Unsubscribed all topics or patterns and assigned partitions] 
+[2023-06-27 19:13:05,003] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [resetStateAndGeneration] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Resetting generation due to: consumer pro-actively leaving the group] 
+[2023-06-27 19:13:05,004] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [requestRejoin] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Request joining group due to: consumer pro-actively leaving the group] 
+[2023-06-27 19:13:05,006] - [org.apache.kafka.common.metrics.Metrics] [close] -> (INFO) [Metrics scheduler closed] 
+[2023-06-27 19:13:05,007] - [org.apache.kafka.common.metrics.Metrics] [close] -> (INFO) [Closing reporter org.apache.kafka.common.metrics.JmxReporter] 
+[2023-06-27 19:13:05,007] - [org.apache.kafka.common.metrics.Metrics] [close] -> (INFO) [Metrics reporters closed] 
+[2023-06-27 19:13:05,014] - [org.apache.kafka.common.utils.AppInfoParser] [unregisterAppInfo] -> (INFO) [App info kafka.consumer for consumer-myGroup1-1 unregistered] 
+[2023-06-27 19:13:05,015] - [org.springframework.kafka.listener.KafkaMessageListenerContainer] [info] -> (INFO) [myGroup1: Consumer stopped] 
+[2023-06-27 19:13:05,150] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14015 Shutting down the JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor]] 
+[2023-06-27 19:13:05,151] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14020 JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor] stopped job acquisition] 
+[2023-06-27 19:13:05,158] - [org.camunda.bpm.engine] [logInfo] -> (INFO) [ENGINE-00007 Process Engine default closed] 
+[2023-06-27 19:13:05,160] - [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [destroy] -> (INFO) [Closing JPA EntityManagerFactory for persistence unit 'default'] 
+[2023-06-27 19:13:05,173] - [com.zaxxer.hikari.HikariDataSource] [close] -> (INFO) [HikariPool-1 - Shutdown initiated...] 
+[2023-06-27 19:13:05,222] - [com.zaxxer.hikari.HikariDataSource] [close] -> (INFO) [HikariPool-1 - Shutdown completed.] 
+[2023-06-27 19:20:44,088] - [org.hibernate.validator.internal.util.Version] [<clinit>] -> (INFO) [HV000001: Hibernate Validator 6.2.5.Final] 
+[2023-06-27 19:20:44,172] - [com.hcl.elch.freshersuperchargers.trainingworkflow.TrainingWorkflowApplication] [logStarting] -> (INFO) [Starting TrainingWorkflowApplication using Java 17.0.6 on asusvivobook with PID 14376 (D:\Tausif\Downloads\FreshSuperChargers-Aswini-Avula\FreshSuperChargers-Aswini-Avula\target\classes started by Tausif in D:\Tausif\Downloads\FreshSuperChargers-Aswini-Avula\FreshSuperChargers-Aswini-Avula)] 
+[2023-06-27 19:20:44,182] - [com.hcl.elch.freshersuperchargers.trainingworkflow.TrainingWorkflowApplication] [logStartupProfileInfo] -> (INFO) [No active profile set, falling back to 1 default profile: "default"] 
+[2023-06-27 19:20:44,354] - [org.springframework.boot.devtools.restart.ChangeableUrls] [logTo] -> (INFO) [The Class-Path manifest attribute in C:\Users\Tausif\.m2\repository\org\glassfish\hk2\hk2\2.6.1\hk2-2.6.1.jar referenced one or more files that do not exist: file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-utils.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/jakarta.annotation-api.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/jakarta.inject.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-api.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/aopalliance-repackaged.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-core.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-locator.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/javassist.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-runlevel.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/class-model.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-analysis.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-commons.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-tree.jar,file:/C:/Users/Tausif/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-util.jar] 
+[2023-06-27 19:20:44,356] - [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [logTo] -> (INFO) [Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable] 
+[2023-06-27 19:20:44,357] - [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [logTo] -> (INFO) [For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'] 
+[2023-06-27 19:20:45,959] - [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [registerRepositoriesIn] -> (INFO) [Bootstrapping Spring Data JPA repositories in DEFAULT mode.] 
+[2023-06-27 19:20:46,089] - [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [registerRepositoriesIn] -> (INFO) [Finished Spring Data repository scanning in 114 ms. Found 7 JPA repository interfaces.] 
+[2023-06-27 19:20:47,533] - [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [initialize] -> (INFO) [Tomcat initialized with port(s): 9002 (http)] 
+[2023-06-27 19:20:47,552] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Initializing ProtocolHandler ["http-nio-9002"]] 
+[2023-06-27 19:20:47,554] - [org.apache.catalina.core.StandardService] [log] -> (INFO) [Starting service [Tomcat]] 
+[2023-06-27 19:20:47,555] - [org.apache.catalina.core.StandardEngine] [log] -> (INFO) [Starting Servlet engine: [Apache Tomcat/9.0.65]] 
+[2023-06-27 19:20:47,839] - [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [log] -> (INFO) [Initializing Spring embedded WebApplicationContext] 
+[2023-06-27 19:20:47,840] - [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [prepareWebApplicationContext] -> (INFO) [Root WebApplicationContext: initialization completed in 3481 ms] 
+[2023-06-27 19:20:47,894] - [org.camunda.bpm.spring.boot.starter.rest.CamundaJerseyResourceConfig] [registerCamundaRestResources] -> (INFO) [Configuring camunda rest api.] 
+[2023-06-27 19:20:47,948] - [org.camunda.bpm.spring.boot.starter.rest.CamundaJerseyResourceConfig] [registerCamundaRestResources] -> (INFO) [Finished configuring camunda rest api.] 
+[2023-06-27 19:20:48,516] - [org.hibernate.jpa.internal.util.LogHelper] [logPersistenceUnitInformation] -> (INFO) [HHH000204: Processing PersistenceUnitInfo [name: default]] 
+[2023-06-27 19:20:48,648] - [org.hibernate.Version] [logVersion] -> (INFO) [HHH000412: Hibernate ORM core version 5.6.11.Final] 
+[2023-06-27 19:20:49,290] - [org.hibernate.annotations.common.Version] [<clinit>] -> (INFO) [HCANN000001: Hibernate Commons Annotations {5.1.2.Final}] 
+[2023-06-27 19:20:49,515] - [com.zaxxer.hikari.HikariDataSource] [getConnection] -> (INFO) [HikariPool-1 - Starting...] 
+[2023-06-27 19:20:50,154] - [com.zaxxer.hikari.HikariDataSource] [getConnection] -> (INFO) [HikariPool-1 - Start completed.] 
+[2023-06-27 19:20:50,192] - [org.hibernate.dialect.Dialect] [<init>] -> (INFO) [HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect] 
+[2023-06-27 19:20:51,937] - [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [initiateService] -> (INFO) [HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]] 
+[2023-06-27 19:20:51,953] - [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [buildNativeEntityManagerFactory] -> (INFO) [Initialized JPA EntityManagerFactory for persistence unit 'default'] 
+[2023-06-27 19:20:52,083] - [org.camunda.bpm.spring.boot] [logInfo] -> (INFO) [STARTER-SB040 Setting up jobExecutor with corePoolSize=3, maxPoolSize:10] 
+[2023-06-27 19:20:52,259] - [org.camunda.bpm.engine.cfg] [logInfo] -> (INFO) [ENGINE-12003 Plugin 'CompositeProcessEnginePlugin[genericPropertiesConfiguration, camundaProcessEngineConfiguration, camundaDatasourceConfiguration, camundaJpaConfiguration, camundaJobConfiguration, camundaHistoryConfiguration, camundaMetricsConfiguration, camundaAuthorizationConfiguration, CreateAdminUserConfiguration[adminUser=AdminUserProperty[id=Test, firstName=Test, lastName=Test, email=Test@localhost, password=******]], failedJobConfiguration, disableDeploymentResourcePattern, eventPublisherPlugin, ApplicationContextClassloaderSwitchPlugin, SpringBootSpinProcessEnginePlugin]' activated on process engine 'default'] 
+[2023-06-27 19:20:52,269] - [org.camunda.bpm.spring.boot] [logInfo] -> (INFO) [STARTER-SB020 ProcessApplication enabled: autoDeployment via springConfiguration#deploymentResourcePattern is disabled] 
+[2023-06-27 19:20:52,271] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-001: Initialized Camunda Spring Boot Eventing Engine Plugin.] 
+[2023-06-27 19:20:52,272] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-003: Task events will be published as Spring Events.] 
+[2023-06-27 19:20:52,273] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-005: Execution events will be published as Spring Events.] 
+[2023-06-27 19:20:52,277] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-007: History events will be published as Spring events.] 
+[2023-06-27 19:20:52,288] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormatProvider[name = application/json]] 
+[2023-06-27 19:20:52,690] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormatProvider[name = application/xml]] 
+[2023-06-27 19:20:52,852] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormat[name = application/xml]] 
+[2023-06-27 19:20:52,852] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormat[name = application/json]] 
+[2023-06-27 19:20:53,290] - [org.camunda.bpm.dmn.feel.scala] [logInfo] -> (INFO) [FEEL/SCALA-01001 Spin value mapper detected] 
+[2023-06-27 19:20:53,425] - [org.camunda.feel.FeelEngine] [<init>] -> (INFO) [Engine created. [value-mapper: CompositeValueMapper(List(org.camunda.feel.impl.JavaValueMapper@78d60f20, org.camunda.spin.plugin.impl.feel.integration.SpinValueMapper@65902dfb)), function-provider: org.camunda.bpm.dmn.feel.impl.scala.function.CustomFunctionTransformer@76fa201f, clock: SystemClock, configuration: Configuration(false)]] 
+[2023-06-27 19:21:00,340] - [org.camunda.bpm.connect] [logInfo] -> (INFO) [CNCT-01004 Discovered provider for connector id 'http-connector' and class 'org.camunda.connect.httpclient.impl.HttpConnectorImpl': 'org.camunda.connect.httpclient.impl.HttpConnectorProviderImpl'] 
+[2023-06-27 19:21:00,347] - [org.camunda.bpm.connect] [logInfo] -> (INFO) [CNCT-01004 Discovered provider for connector id 'soap-http-connector' and class 'org.camunda.connect.httpclient.soap.impl.SoapHttpConnectorImpl': 'org.camunda.connect.httpclient.soap.impl.SoapHttpConnectorProviderImpl'] 
+[2023-06-27 19:21:00,747] - [org.camunda.bpm.engine] [logInfo] -> (INFO) [ENGINE-00001 Process Engine default created.] 
+[2023-06-27 19:21:00,838] - [org.camunda.bpm.spring.boot] [logInfo] -> (INFO) [STARTER-SB011 Skip creating initial Admin User, user does exist: UserEntity[id=Test, revision=3, firstName=Test, lastName=Test, email=Test@localhost, password={SHA-512}sfb4lSg/21sQdiTxHeQ0gnxvuW2IIbT/b3w+ZFXi6d/4M3gBqHNLQZONFXd375ibtqquTYMhp29mDTJd+EecJw==, salt=B7vNYSEtAGJGbzTO9N4jDw==, lockExpirationTime=null, attempts=0]] 
+[2023-06-27 19:21:01,261] - [org.drools.compiler.kie.builder.impl.KieBuilderImpl] [packageNameForFile] -> (WARN) [File 'rules/tasks.drl' is in folder 'rules' but declares package 'com.foobat'. It is advised to have a correspondance between package and folder names.] 
+[2023-06-27 19:21:02,885] - [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [openEntityManagerInViewInterceptor] -> (WARN) [spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning] 
+[2023-06-27 19:21:03,336] - [org.camunda.bpm.spring.boot.starter.webapp.filter.LazyInitRegistration] [lazyInit] -> (INFO) [lazy initialized org.camunda.bpm.spring.boot.starter.webapp.filter.LazyProcessEnginesFilter@6fba87f9] 
+[2023-06-27 19:21:03,432] - [org.camunda.bpm.spring.boot.starter.webapp.filter.LazyInitRegistration] [lazyInit] -> (INFO) [lazy initialized org.camunda.bpm.spring.boot.starter.webapp.filter.LazySecurityFilter@6d2454ad] 
+[2023-06-27 19:21:03,684] - [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [startServer] -> (INFO) [LiveReload server is running on port 35729] 
+[2023-06-27 19:21:03,923] - [org.apache.kafka.clients.consumer.ConsumerConfig] [logAll] -> (INFO) [ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-myGroup1-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = myGroup1
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+] 
+[2023-06-27 19:21:04,179] - [org.apache.kafka.clients.consumer.ConsumerConfig] [logUnused] -> (WARN) [The configuration 'spring.json.trusted.packages' was supplied but isn't a known config.] 
+[2023-06-27 19:21:04,179] - [org.apache.kafka.clients.consumer.ConsumerConfig] [logUnused] -> (WARN) [The configuration 'spring.deserializer.value.delegate.class' was supplied but isn't a known config.] 
+[2023-06-27 19:21:04,184] - [org.apache.kafka.common.utils.AppInfoParser] [<init>] -> (INFO) [Kafka version: 3.0.2] 
+[2023-06-27 19:21:04,185] - [org.apache.kafka.common.utils.AppInfoParser] [<init>] -> (INFO) [Kafka commitId: 25b1aea02e37da14] 
+[2023-06-27 19:21:04,187] - [org.apache.kafka.common.utils.AppInfoParser] [<init>] -> (INFO) [Kafka startTimeMs: 1687873864179] 
+[2023-06-27 19:21:04,196] - [org.apache.kafka.clients.consumer.KafkaConsumer] [subscribe] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Subscribed to topic(s): newTask] 
+[2023-06-27 19:21:04,214] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Starting ProtocolHandler ["http-nio-9002"]] 
+[2023-06-27 19:21:04,245] - [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [start] -> (INFO) [Tomcat started on port(s): 9002 (http) with context path ''] 
+[2023-06-27 19:21:04,322] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08024 Found processes.xml file at file:/D:/Tausif/Downloads/FreshSuperChargers-Aswini-Avula/FreshSuperChargers-Aswini-Avula/target/classes/META-INF/processes.xml] 
+[2023-06-27 19:21:04,506] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08023 Deployment summary for process archive 'trainingWorkflowApplication': 
+
+        userform.form
+        training-workflow.bpmn
+] 
+[2023-06-27 19:21:05,220] - [org.camunda.bpm.application] [logInfo] -> (INFO) [ENGINE-07021 ProcessApplication 'trainingWorkflowApplication' registered for DB deployments [ed4fab4a-127c-11ee-82db-809133675f5b]. Will execute process definitions 
+
+        Decision[version: 1, id: Decision:1:ed77578d-127c-11ee-82db-809133675f5b]
+Deployment does not provide any case definitions.] 
+[2023-06-27 19:21:05,231] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08050 Process application trainingWorkflowApplication successfully deployed] 
+[2023-06-27 19:21:05,236] - [com.hcl.elch.freshersuperchargers.trainingworkflow.TrainingWorkflowApplication] [logStarted] -> (INFO) [Started TrainingWorkflowApplication in 21.732 seconds (JVM running for 24.408)] 
+[2023-06-27 19:21:05,242] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14014 Starting up the JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor].] 
+[2023-06-27 19:21:05,254] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14018 JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor] starting to acquire jobs] 
+[2023-06-27 19:21:05,294] - [org.apache.kafka.clients.Metadata] [updateLatestMetadata] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Resetting the last seen epoch of partition newTask-0 to 0 since the associated topicId changed from null to t0SiJO8IS42wB-IdMfGKFg] 
+[2023-06-27 19:21:05,301] - [org.apache.kafka.clients.Metadata] [update] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Cluster ID: 49wSc7t9TfCsKn1qSooxbQ] 
+[2023-06-27 19:21:05,306] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [onSuccess] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Discovered group coordinator asusvivobook:9092 (id: 2147483647 rack: null)] 
+[2023-06-27 19:21:05,311] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [sendJoinGroupRequest] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] (Re-)joining group] 
+[2023-06-27 19:21:05,375] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [requestRejoin] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Request joining group due to: need to re-join with the given member-id] 
+[2023-06-27 19:21:05,375] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [sendJoinGroupRequest] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] (Re-)joining group] 
+[2023-06-27 19:21:23,478] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [handle] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Successfully joined group with generation Generation{generationId=31, memberId='consumer-myGroup1-1-79c04ba5-7579-405f-8629-3092dd34fdb8', protocol='range'}] 
+[2023-06-27 19:21:23,486] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [performAssignment] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Finished assignment for group at generation 31: {consumer-myGroup1-1-79c04ba5-7579-405f-8629-3092dd34fdb8=Assignment(partitions=[newTask-0])}] 
+[2023-06-27 19:21:23,623] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [handle] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Successfully synced group in generation Generation{generationId=31, memberId='consumer-myGroup1-1-79c04ba5-7579-405f-8629-3092dd34fdb8', protocol='range'}] 
+[2023-06-27 19:21:23,624] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [invokeOnAssignment] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Notifying assignor about the new Assignment(partitions=[newTask-0])] 
+[2023-06-27 19:21:23,635] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [invokePartitionsAssigned] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Adding newly assigned partitions: newTask-0] 
+[2023-06-27 19:21:23,670] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [refreshCommittedOffsetsIfNeeded] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Setting offset for partition newTask-0 to the committed offset FetchPosition{offset=14, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[asusvivobook:9092 (id: 0 rack: null)], epoch=0}}] 
+[2023-06-27 19:21:23,672] - [org.springframework.kafka.listener.KafkaMessageListenerContainer] [info] -> (INFO) [myGroup1: partitions assigned: [newTask-0]] 
+[2023-06-27 19:23:03,292] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.EmailSenderService] [mailSending] -> (INFO) [Inside the mailSending() method now........] 
+[2023-06-27 19:23:03,572] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.EmailSenderService] [mailSending] -> (INFO) [Inside the mailSending() method now........] 
+[2023-06-27 20:31:48,776] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [markCoordinatorUnknown] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Group coordinator asusvivobook:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: coordinator unavailable.isDisconnected: true. Rediscovery will be attempted.] 
+[2023-06-27 20:31:48,731] - [org.apache.kafka.clients.FetchSessionHandler] [handleError] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Error sending fetch request (sessionId=335769423, epoch=2724) to node 0:] 
+org.apache.kafka.common.errors.DisconnectException: null
+[2023-06-27 20:31:49,549] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [onSuccess] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Discovered group coordinator asusvivobook:9092 (id: 2147483647 rack: null)] 
+[2023-06-27 20:31:49,621] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [run] -> (WARN) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] consumer poll timeout has expired. This means the time between subsequent calls to poll() was longer than the configured max.poll.interval.ms, which typically implies that the poll loop is spending too much time processing messages. You can address this either by increasing max.poll.interval.ms or by reducing the maximum size of batches returned in poll() with max.poll.records.] 
+[2023-06-27 20:31:49,622] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [maybeLeaveGroup] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Member consumer-myGroup1-1-79c04ba5-7579-405f-8629-3092dd34fdb8 sending LeaveGroup request to coordinator asusvivobook:9092 (id: 2147483647 rack: null) due to consumer poll timeout has expired.] 
+[2023-06-27 20:31:49,626] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [onSuccess] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Discovered group coordinator asusvivobook:9092 (id: 2147483647 rack: null)] 
+[2023-06-27 20:31:49,629] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [resetStateAndGeneration] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Resetting generation due to: consumer pro-actively leaving the group] 
+[2023-06-27 20:31:49,629] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [requestRejoin] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Request joining group due to: consumer pro-actively leaving the group] 
+[2023-06-27 20:31:49,635] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [onJoinPrepare] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Giving away all assigned partitions as lost since generation has been reset,indicating that consumer is no longer part of the group] 
+[2023-06-27 20:31:49,641] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [invokePartitionsLost] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Lost previously assigned partitions newTask-0] 
+[2023-06-27 20:31:49,678] - [org.springframework.kafka.listener.KafkaMessageListenerContainer] [info] -> (INFO) [myGroup1: partitions lost: [newTask-0]] 
+[2023-06-27 20:31:49,701] - [org.springframework.kafka.listener.KafkaMessageListenerContainer] [info] -> (INFO) [myGroup1: partitions revoked: [newTask-0]] 
+[2023-06-27 20:31:49,717] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [sendJoinGroupRequest] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] (Re-)joining group] 
+[2023-06-27 20:31:49,740] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [onSuccess] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Discovered group coordinator asusvivobook:9092 (id: 2147483647 rack: null)] 
+[2023-06-27 20:31:49,866] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [handle] -> (ERROR) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] LeaveGroup request with Generation{generationId=31, memberId='consumer-myGroup1-1-79c04ba5-7579-405f-8629-3092dd34fdb8', protocol='range'} failed with error: The coordinator is not aware of this member.] 
+[2023-06-27 20:31:49,967] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [requestRejoin] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Request joining group due to: need to re-join with the given member-id] 
+[2023-06-27 20:31:50,555] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [sendJoinGroupRequest] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] (Re-)joining group] 
+[2023-06-27 20:31:50,697] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [handle] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Successfully joined group with generation Generation{generationId=33, memberId='consumer-myGroup1-1-f321fea9-edf1-4dd4-b395-e59f239b519b', protocol='range'}] 
+[2023-06-27 20:31:50,700] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [performAssignment] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Finished assignment for group at generation 33: {consumer-myGroup1-1-f321fea9-edf1-4dd4-b395-e59f239b519b=Assignment(partitions=[newTask-0])}] 
+[2023-06-27 20:31:50,716] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [handle] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Successfully synced group in generation Generation{generationId=33, memberId='consumer-myGroup1-1-f321fea9-edf1-4dd4-b395-e59f239b519b', protocol='range'}] 
+[2023-06-27 20:31:50,718] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [invokeOnAssignment] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Notifying assignor about the new Assignment(partitions=[newTask-0])] 
+[2023-06-27 20:31:50,726] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [invokePartitionsAssigned] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Adding newly assigned partitions: newTask-0] 
+[2023-06-27 20:31:50,748] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [refreshCommittedOffsetsIfNeeded] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Setting offset for partition newTask-0 to the committed offset FetchPosition{offset=14, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[asusvivobook:9092 (id: 0 rack: null)], epoch=0}}] 
+[2023-06-27 20:31:50,749] - [org.springframework.kafka.listener.KafkaMessageListenerContainer] [info] -> (INFO) [myGroup1: partitions assigned: [newTask-0]] 
+[2023-06-27 20:32:03,901] - [com.zaxxer.hikari.pool.HikariPool] [run] -> (WARN) [HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47m43s554ms510µs900ns).] 
+[2023-06-27 20:32:08,772] - [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [shutdown] -> (INFO) [Application shutdown requested.] 
+[2023-06-27 20:32:09,184] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08051 Process application trainingWorkflowApplication undeployed] 
+[2023-06-27 20:32:09,387] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Pausing ProtocolHandler ["http-nio-9002"]] 
+[2023-06-27 20:32:09,388] - [org.apache.catalina.core.StandardService] [log] -> (INFO) [Stopping service [Tomcat]] 
+[2023-06-27 20:32:09,616] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Stopping ProtocolHandler ["http-nio-9002"]] 
+[2023-06-27 20:32:09,641] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Destroying ProtocolHandler ["http-nio-9002"]] 
+[2023-06-27 20:32:09,673] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [invokePartitionsRevoked] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Revoke previously assigned partitions newTask-0] 
+[2023-06-27 20:32:09,673] - [org.springframework.kafka.listener.KafkaMessageListenerContainer] [info] -> (INFO) [myGroup1: partitions revoked: [newTask-0]] 
+[2023-06-27 20:32:09,674] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [maybeLeaveGroup] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Member consumer-myGroup1-1-f321fea9-edf1-4dd4-b395-e59f239b519b sending LeaveGroup request to coordinator asusvivobook:9092 (id: 2147483647 rack: null) due to the consumer unsubscribed from all topics] 
+[2023-06-27 20:32:09,674] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [resetStateAndGeneration] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Resetting generation due to: consumer pro-actively leaving the group] 
+[2023-06-27 20:32:09,674] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [requestRejoin] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Request joining group due to: consumer pro-actively leaving the group] 
+[2023-06-27 20:32:09,675] - [org.apache.kafka.clients.consumer.KafkaConsumer] [unsubscribe] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Unsubscribed all topics or patterns and assigned partitions] 
+[2023-06-27 20:32:09,681] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [resetStateAndGeneration] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Resetting generation due to: consumer pro-actively leaving the group] 
+[2023-06-27 20:32:09,681] - [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator] [requestRejoin] -> (INFO) [[Consumer clientId=consumer-myGroup1-1, groupId=myGroup1] Request joining group due to: consumer pro-actively leaving the group] 
+[2023-06-27 20:32:09,696] - [org.apache.kafka.common.metrics.Metrics] [close] -> (INFO) [Metrics scheduler closed] 
+[2023-06-27 20:32:09,696] - [org.apache.kafka.common.metrics.Metrics] [close] -> (INFO) [Closing reporter org.apache.kafka.common.metrics.JmxReporter] 
+[2023-06-27 20:32:09,697] - [org.apache.kafka.common.metrics.Metrics] [close] -> (INFO) [Metrics reporters closed] 
+[2023-06-27 20:32:09,718] - [org.apache.kafka.common.utils.AppInfoParser] [unregisterAppInfo] -> (INFO) [App info kafka.consumer for consumer-myGroup1-1 unregistered] 
+[2023-06-27 20:32:09,729] - [org.springframework.kafka.listener.KafkaMessageListenerContainer] [info] -> (INFO) [myGroup1: Consumer stopped] 
+[2023-06-27 20:32:09,897] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14015 Shutting down the JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor]] 
+[2023-06-27 20:32:09,898] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14020 JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor] stopped job acquisition] 
+[2023-06-27 20:32:09,927] - [org.camunda.bpm.engine] [logInfo] -> (INFO) [ENGINE-00007 Process Engine default closed] 
+[2023-06-27 20:32:09,933] - [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [destroy] -> (INFO) [Closing JPA EntityManagerFactory for persistence unit 'default'] 
+[2023-06-27 20:32:10,028] - [com.zaxxer.hikari.HikariDataSource] [close] -> (INFO) [HikariPool-1 - Shutdown initiated...] 
+[2023-06-27 20:32:10,060] - [com.zaxxer.hikari.HikariDataSource] [close] -> (INFO) [HikariPool-1 - Shutdown completed.] 

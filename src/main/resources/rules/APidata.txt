@@ -1,0 +1,7 @@
+{
+   "userId":1,
+   "task":"JAVA",
+   "status":"InProgress",
+   "duedate":"2023-05-15",
+   "taskId":5
+}
