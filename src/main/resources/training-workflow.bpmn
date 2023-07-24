@@ -184,7 +184,7 @@
     </bpmn:sequenceFlow>
     <bpmn:exclusiveGateway id="Gateway_1qkyaje" name="poc">
       <bpmn:incoming>Flow_0vn3f47</bpmn:incoming>
-      <bpmn:incoming>Flow_08sudjo</bpmn:incoming>
+      <bpmn:incoming>Flow_0472h16</bpmn:incoming>
       <bpmn:outgoing>Flow_1r2e7qv</bpmn:outgoing>
       <bpmn:outgoing>Flow_0sobzjd</bpmn:outgoing>
     </bpmn:exclusiveGateway>
@@ -197,12 +197,11 @@
     <bpmn:sendTask id="Activity_0hqa72n" name="Email user with failed status" camunda:class="com.hcl.elch.freshersuperchargers.trainingworkflow.controller.EmailForUnSuccess">
       <bpmn:incoming>Flow_1c3tj20</bpmn:incoming>
       <bpmn:incoming>Flow_0fk6fjp</bpmn:incoming>
-      <bpmn:outgoing>Flow_08sudjo</bpmn:outgoing>
+      <bpmn:outgoing>Flow_0eniu58</bpmn:outgoing>
     </bpmn:sendTask>
     <bpmn:sequenceFlow id="Flow_1c3tj20" name="No" sourceRef="Gateway_07bcgaf" targetRef="Activity_0hqa72n">
       <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">${Decision ==  "No"}</bpmn:conditionExpression>
     </bpmn:sequenceFlow>
-    <bpmn:sequenceFlow id="Flow_08sudjo" sourceRef="Activity_0hqa72n" targetRef="Gateway_1qkyaje" />
     <bpmn:sequenceFlow id="Flow_1k8p0kg" sourceRef="Activity_16pu1eu" targetRef="Event_1hhsuzz" />
     <bpmn:serviceTask id="Activity_12rlqfw" name="Git Hub Url Validation" camunda:class="com.hcl.elch.freshersuperchargers.trainingworkflow.controller.GithubUrlValidation">
       <bpmn:incoming>Flow_03244az</bpmn:incoming>
@@ -213,6 +212,8 @@
     <bpmn:sequenceFlow id="Flow_0fk6fjp" sourceRef="Gateway_068x889" targetRef="Activity_0hqa72n">
       <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">${Decision ==  "No"}</bpmn:conditionExpression>
     </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="Flow_0eniu58" sourceRef="Activity_0hqa72n" targetRef="Event_0y8idsf" />
+    <bpmn:sequenceFlow id="Flow_0472h16" sourceRef="Event_0y8idsf" targetRef="Gateway_1qkyaje" />
   </bpmn:process>
   <bpmndi:BPMNDiagram id="BPMNDiagram_1">
     <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Decision">
@@ -298,6 +299,12 @@
       <bpmndi:BPMNShape id="Activity_12rlqfw_di" bpmnElement="Activity_12rlqfw">
         <dc:Bounds x="1450" y="207" width="100" height="80" />
         <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_0y8idsf_di" bpmnElement="Event_0y8idsf">
+        <dc:Bounds x="1182" y="352" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1170" y="313" width="60" height="14" />
+        </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="Flow_1ahwldf_di" bpmnElement="Flow_1ahwldf">
         <di:waypoint x="208" y="247" />
@@ -462,11 +469,6 @@
           <dc:Bounds x="1829" y="334" width="15" height="14" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="Flow_08sudjo_di" bpmnElement="Flow_08sudjo">
-        <di:waypoint x="1260" y="410" />
-        <di:waypoint x="1200" y="410" />
-        <di:waypoint x="1200" y="272" />
-      </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_1k8p0kg_di" bpmnElement="Flow_1k8p0kg">
         <di:waypoint x="1360" y="260" />
         <di:waypoint x="1378" y="260" />
@@ -483,6 +485,15 @@
         <di:waypoint x="1600" y="272" />
         <di:waypoint x="1600" y="420" />
         <di:waypoint x="1360" y="420" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0eniu58_di" bpmnElement="Flow_0eniu58">
+        <di:waypoint x="1260" y="410" />
+        <di:waypoint x="1200" y="410" />
+        <di:waypoint x="1200" y="388" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0472h16_di" bpmnElement="Flow_0472h16">
+        <di:waypoint x="1200" y="352" />
+        <di:waypoint x="1200" y="272" />
       </bpmndi:BPMNEdge>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>
